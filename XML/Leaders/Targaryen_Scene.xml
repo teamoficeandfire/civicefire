@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2010 3:32:46 PM -->
+<LeaderScene lights="" camera="" ColorKey=""  cubemap_prefix ="" FallbackImage="Targaryen.dds">
+	<LeaderObject>Targaryen.dds</LeaderObject>
+	<BackgroundObject>Targaryen.dds</BackgroundObject>
+	<BackgroundObject>Targaryen.dds</BackgroundObject>
+</LeaderScene>

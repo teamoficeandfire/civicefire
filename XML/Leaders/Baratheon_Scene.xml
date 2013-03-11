@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2010 3:31:46 PM -->
+<LeaderScene lights="" camera="" ColorKey=""  cubemap_prefix ="" FallbackImage="Baratheon.dds">
+	<LeaderObject>Baratheon.dds</LeaderObject>
+	<BackgroundObject>Baratheon.dds</BackgroundObject>
+	<BackgroundObject>Baratheon.dds</BackgroundObject>
+</LeaderScene>

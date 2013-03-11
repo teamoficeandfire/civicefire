@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2010 3:32:27 PM -->
+<LeaderScene lights="" camera="" ColorKey=""  cubemap_prefix ="" FallbackImage="Stark.dds">
+	<LeaderObject>Stark.dds</LeaderObject>
+	<BackgroundObject>Stark.dds</BackgroundObject>
+	<BackgroundObject>Stark.dds</BackgroundObject>
+</LeaderScene>

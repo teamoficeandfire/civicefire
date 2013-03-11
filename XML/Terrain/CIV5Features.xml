@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/28/2010 3:19:47 PM -->
+<GameData>
+	<!--
+	<Feature_TerrainBooleans>
+		<Row>
+			<FeatureType>FEATURE_ICE</FeatureType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<FeatureType>FEATURE_THE_WALL</FeatureType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+	</Feature_TerrainBooleans>
+	-->
+</GameData>

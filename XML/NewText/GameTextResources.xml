@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/26/2012 9:14:57 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="MOD_TXT_KEY_RESOURCE_PITCH">
+			<Text>Pitch</Text>
+			<!-- <Gender>neuter:an</Gender> -->
+		</Row>
+	</Language_en_US>
+</GameData>

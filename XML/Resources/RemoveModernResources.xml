@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Programming by Martin Mittner -->
+<!-- Created by ModBuddy on 7/26/2012 8:57:11 PM -->
+<GameData>
+<!-- DELETE MODERN RESOURCES CLASS-->
+	<!--
+	<ResourceClasses>
+		<Delete Type="RESOURCECLASS_MODERN"/>
+	</ResourceClasses>
+	-->
+<!-- END DELETE MODERN RESOURCES CLASS-->
+	
+<!--REMOVE UNUSED MODERN RESOURCES-->
+	<!--
+	<Resources>
+		<Delete Type="RESOURCE_ALUMINUM"/>
+		<Delete Type="RESOURCE_URANIUM"/>
+	</Resources>
+	-->
+
+	<Resource_YieldChanges>
+		<Delete ResourceType="RESOURCE_ALUMINUM"/>
+		<Delete ResourceType="RESOURCE_URANIUM"/>
+	</Resource_YieldChanges>
+	<Resource_Flavors>
+		<Delete ResourceType="RESOURCE_ALUMINUM"/>
+		<Delete ResourceType="RESOURCE_URANIUM"/>
+	</Resource_Flavors>
+	<Resource_TerrainBooleans>
+		<Delete ResourceType="RESOURCE_ALUMINUM"/>
+		<Delete ResourceType="RESOURCE_URANIUM"/>
+	</Resource_TerrainBooleans>
+	<Resource_QuantityTypes>
+		<Delete ResourceType="RESOURCE_ALUMINUM"/>
+		<Delete ResourceType="RESOURCE_URANIUM"/>
+	</Resource_QuantityTypes>
+
+	<!-- Remove dependancies on these resources-->
+	<Building_LocalResourceAnds>
+		<Delete ResourceType="RESOURCE_ALUMINUM"/>
+		<Delete ResourceType="RESOURCE_URANIUM"/>
+	</Building_LocalResourceAnds>
+	<Building_LocalResourceOrs>
+		<Delete ResourceType="RESOURCE_ALUMINUM"/>
+		<Delete ResourceType="RESOURCE_URANIUM"/>
+	</Building_LocalResourceOrs>
+
+	<Trait_ResourceQuantityModifiers>
+		<Delete ResourceType="RESOURCE_ALUMINUM"/>
+		<Delete ResourceType="RESOURCE_URANIUM"/>
+	</Trait_ResourceQuantityModifiers>
+	
+	<Unit_ResourceQuantityRequirements>
+		<Delete ResourceType="RESOURCE_ALUMINUM"/>
+		<Delete ResourceType="RESOURCE_URANIUM"/>
+	</Unit_ResourceQuantityRequirements>
+
+	<Improvement_ResourceTypes>
+		<Delete ResourceType="RESOURCE_ALUMINUM"/>
+		<Delete ResourceType="RESOURCE_URANIUM"/>
+	</Improvement_ResourceTypes>
+	<Improvement_ResourceType_Yields>
+		<Delete ResourceType="RESOURCE_ALUMINUM"/>
+		<Delete ResourceType="RESOURCE_URANIUM"/>
+	</Improvement_ResourceType_Yields>
+
+<!-- END DELETE UNUSED MODERN RESOURCES-->
+	
+	<!--MODIFY COAL AND OIL RESOURCES SO THEY ARE RUSH RESOURCES RATHER THAN MODERN -->
+	<!--
+	<Resources>
+		<Update>
+			<Where Type="RESOURCE_COAL"/>
+			<Set>
+				<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="RESOURCE_OIL"/>
+			<Set>
+				<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			</Set>
+		</Update>
+	</Resources>
+	-->
+	<!-- END MODIFY COAL AND OIL RESOURCES TO RUSH-->
+	<!--
+	<DeleteMissingReferences table="ResourceClasses" column="Type"/>
+	<DeleteMissingReferences table="Resources" column="Type"/>
+	<DeleteMissingReferences table="Resource_YieldChanges" column="ResourceType"/>
+	<DeleteMissingReferences table="Resource_Flavors" column="ResourceType"/>
+	<DeleteMissingReferences table="Resource_TerrainBooleans" column="ResourceType"/>
+	<DeleteMissingReferences table="Resource_QuantityTypes" column="ResourceType"/>
+	<DeleteMissingReferences table="Trait_ResourceQuantityModifiers" column="ResourceType"/>
+	<DeleteMissingReferences table="Unit_ResourceQuantityRequirements" column="ResourceType"/>
+	<DeleteMissingReferences table="Improvement_ResourceTypes" column="ResourceType"/>
+	<DeleteMissingReferences table="Improvement_ResourceType_Yields" column="ResourceType"/>
+	-->
+</GameData>

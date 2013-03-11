@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/10/2010 2:22:44 PM -->
+<GameData>
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_STARK</Type>
+			<PrimaryColor>COLOR_PLAYER_GRAY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_WHITE</SecondaryColor>
+			<TextColor>COLOR_PLAYER_GRAY_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+</GameData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2010 1:02:11 PM -->
+<LeaderScene lights="" camera="" ColorKey=""  cubemap_prefix ="" FallbackImage="Lannister.dds">
+	<LeaderObject>Lannister.dds</LeaderObject>
+	<BackgroundObject>Lannister.dds</BackgroundObject>
+	<BackgroundObject>Lannister.dds</BackgroundObject>
+</LeaderScene>

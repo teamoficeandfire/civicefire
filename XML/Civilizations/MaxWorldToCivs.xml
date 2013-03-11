@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/29/2012 2:12:26 AM -->
+<GameData>
+	<!-- Restrict the Default player sizes for worlds based on the number of civs you have created for this mod-->
+	<Worlds>
+		<Update>
+			<Set DefaultPlayers="6"/>
+			<Where Type="WORLDSIZE_STANDARD"/>
+		</Update>
+		<Update>
+			<Set DefaultPlayers="6"/>
+			<Where Type="WORLDSIZE_LARGE"/>
+		</Update>
+		<Update>
+			<Set DefaultPlayers="6"/>
+			<Where Type="WORLDSIZE_HUGE"/>
+		</Update>
+	</Worlds>
+</GameData>

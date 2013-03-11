@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/18/2010 12:32:05 PM -->
+<GameData>
+	<MinorCivilizations>
+		<Row>
+			<Type>MINOR_CIV_HOUSE_MARTELL</Type>
+			<Description>TXT_KEY_CITYSTATE_HOUSE_MARTELL</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_HOUSE_MARTELL</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_HOUSE_MARTELL_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_HOUSE_MARTELL_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_RED_AND_GOLD</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_HOUSE_TYRELL</Type>
+			<Description>TXT_KEY_CITYSTATE_HOUSE_TYRELL</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_HOUSE_TYRELL</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_HOUSE_TYRELL_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_HOUSE_TYRELL_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_DARK_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_HOUSE_BOLTON</Type>
+			<Description>TXT_KEY_CITYSTATE_HOUSE_BOLTON</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_HOUSE_BOLTON</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_HOUSE_BOLTON_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_HOUSE_BOLTON_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_PINK</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_HOUSE_FREY</Type>
+			<Description>TXT_KEY_CITYSTATE_HOUSE_FREY</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_HOUSE_FREY</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_HOUSE_FREY_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_HOUSE_FREY_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_CYAN_AND_GRAY</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_HOUSE_TULLY</Type>
+			<Description>TXT_KEY_CITYSTATE_HOUSE_TULLY</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_HOUSE_TULLY</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_HOUSE_TULLY_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_HOUSE_TULLY_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MIDDLE_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_HOUSE_LANNISTER</Type>
+			<Description>TXT_KEY_CITYSTATE_HOUSE_LANNISTER</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_HOUSE_LANNISTER</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_HOUSE_LANNISTER_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_LANNISTER_TEXT_1</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_DARK_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_HOUSE_ARRYN</Type>
+			<Description>TXT_KEY_CITYSTATE_HOUSE_ARRYN</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_HOUSE_ARRYN</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_HOUSE_ARRYN_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_HOUSE_ARRYN_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_PENTOS</Type>
+			<Description>TXT_KEY_CITYSTATE_PENTOS</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_PENTOS</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_PENTOS_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_PENTOS_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_CYAN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_ASTAPOR</Type>
+			<Description>TXT_KEY_CITYSTATE_ASTAPOR</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_ASTAPOR</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_ASTAPOR_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_ASTAPOR_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_VAES_DOTHRAK</Type>
+			<Description>TXT_KEY_CITYSTATE_VAES_DOTHRAK</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_VAES_DOTHRAK</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_VAES_DOTHRAK_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_VAES_DOTHRAK_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GRAY</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_LHAZAR</Type>
+			<Description>TXT_KEY_CITYSTATE_LHAZAR</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_LHAZAR</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_LHAZAR_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_LHAZAR_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_WHITE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_HOUSE_UNDYING</Type>
+			<Description>TXT_KEY_CITYSTATE_HOUSE_UNDYING</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_HOUSE_UNDYING</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_HOUSE_UNDYING_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_HOUSE_UNDYING_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_DARK_INDIGO</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_YUNKAI</Type>
+			<Description>TXT_KEY_CITYSTATE_YUNKAI</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_YUNKAI</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_YUNKAI_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_YUNKAI_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_ORANGE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_MEEREEN</Type>
+			<Description>TXT_KEY_CITYSTATE_MEEREEN</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_MEEREEN</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_MEEREEN_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_MEEREEN_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_PEACH</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_TOLOS</Type>
+			<Description>TXT_KEY_CITYSTATE_TOLOS</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_TOLOS</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_TOLOS_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_TOLOS_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_ELYRIA</Type>
+			<Description>TXT_KEY_CITYSTATE_ELYRIA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_ELYRIA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_ELYRIA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_ELYRIA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_OROS</Type>
+			<Description>TXT_KEY_CITYSTATE_OROS</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_OROS</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_OROS_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_OROS_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_TYRIA</Type>
+			<Description>TXT_KEY_CITYSTATE_TYRIA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_TYRIA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_TYRIA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_TYRIA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_VALYRIA</Type>
+			<Description>TXT_KEY_CITYSTATE_VALYRIA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_VALYRIA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_VALYRIA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_VALYRIA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GOLDENROD</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MILITANT</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_MANTARYS</Type>
+			<Description>TXT_KEY_CITYSTATE_MANTARYS</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_MANTARYS</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_MANTARYS_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_MANTARYS_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+	</MinorCivilizations>
+	<MinorCivilization_CityNames>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_MARTELL</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_SUNSPEAR</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_TYRELL</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_HIGHGARDEN</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_BOLTON</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_DREADFORT</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_FREY</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_THE_TWINS</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_TULLY</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_RIVERRUN</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_LANNISTER</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_CASTERLY_ROCK</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_ARRYN</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_THE_EYRIE</CityName>
+		</Row>
+<!-- ESSOS -->
+		<Row>
+			<MinorCivType>MINOR_CIV_PENTOS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_PENTOS</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ASTAPOR</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_ASTAPOR</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VAES_DOTHRAK</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_VAES_DOTHRAK</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LHAZAR</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_LHAZAR</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_UNDYING</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_HOUSE_UNDYING</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_YUNKAI</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_YUNKAI</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MEEREEN</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MEEREEN</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TOLOS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_TOLOS</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ELYRIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_ELYRIA</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_OROS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_OROS</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TYRIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_TYRIA</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALYRIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_VALYRIA</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANTARYS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MANTARYS</CityName>
+		</Row>
+	</MinorCivilization_CityNames>
+	<MinorCivilization_Flavors>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_MARTELL</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_MARTELL</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_MARTELL</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_MARTELL</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_TYRELL</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_TYRELL</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_TYRELL</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_TYRELL</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_BOLTON</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_BOLTON</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_BOLTON</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_BOLTON</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_FREY</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_FREY</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_FREY</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_FREY</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_TULLY</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_TULLY</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_TULLY</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_TULLY</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_LANNISTER</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_LANNISTER</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_LANNISTER</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_LANNISTER</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_ARRYN</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_ARRYN</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_ARRYN</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_ARRYN</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PENTOS</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PENTOS</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PENTOS</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PENTOS</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ASTAPOR</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ASTAPOR</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ASTAPOR</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ASTAPOR</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VAES_DOTHRAK</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VAES_DOTHRAK</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VAES_DOTHRAK</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VAES_DOTHRAK</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LHAZAR</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LHAZAR</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LHAZAR</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LHAZAR</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_UNDYING</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_UNDYING</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_UNDYING</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HOUSE_UNDYING</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_YUNKAI</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_YUNKAI</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_YUNKAI</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_YUNKAI</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MEEREEN</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MEEREEN</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MEEREEN</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MEEREEN</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TOLOS</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TOLOS</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TOLOS</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TOLOS</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ELYRIA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ELYRIA</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ELYRIA</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ELYRIA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_OROS</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_OROS</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_OROS</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_OROS</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TYRIA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TYRIA</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TYRIA</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_TYRIA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALYRIA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALYRIA</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALYRIA</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALYRIA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANTARYS</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANTARYS</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANTARYS</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANTARYS</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</MinorCivilization_Flavors>
+	<Civilizations>
+		<Update>
+			<Set DefaultPlayerColor="PLAYERCOLOR_DARK_INDIGO_AND_WHITE"/>
+			<Where Type="CIVILIZATION_BARBARIAN"/>
+		</Update>
+	</Civilizations>
+	<Civilization_BuildingClassOverrides>
+		<Update>
+			<Set BuildingType="BUILDING_HEROIC_EPIC"/>
+			<Where BuildingClassType="BUILDINGCLASS_HEROIC_EPIC" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_NATIONAL_EPIC"/>
+			<Where BuildingClassType="BUILDINGCLASS_NATIONAL_EPIC" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_IRONWORKS"/>
+			<Where BuildingClassType="BUILDINGCLASS_IRONWORKS" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_OXFORD_UNIVERSITY"/>
+			<Where BuildingClassType="BUILDINGCLASS_OXFORD_UNIVERSITY" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_NEUSCHWANSTEIN"/>
+			<Where BuildingClassType="BUILDINGCLASS_NEUSCHWANSTEIN" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_HERMITAGE"/>
+			<Where BuildingClassType="BUILDINGCLASS_HERMITAGE" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_PYRAMID"/>
+			<Where BuildingClassType="BUILDINGCLASS_PYRAMID" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_GREAT_LIBRARY"/>
+			<Where BuildingClassType="BUILDINGCLASS_GREAT_LIBRARY" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_STONEHENGE"/>
+			<Where BuildingClassType="BUILDINGCLASS_STONEHENGE" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_HANGING_GARDEN"/>
+			<Where BuildingClassType="BUILDINGCLASS_HANGING_GARDEN" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_COLOSSUS"/>
+			<Where BuildingClassType="BUILDINGCLASS_COLOSSUS" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_GREAT_LIGHTHOUSE"/>
+			<Where BuildingClassType="BUILDINGCLASS_GREAT_LIGHTHOUSE" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_ORACLE"/>
+			<Where BuildingClassType="BUILDINGCLASS_ORACLE" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_GREAT_WALL"/>
+			<Where BuildingClassType="BUILDINGCLASS_GREAT_WALL" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_HAGIA_SOPHIA"/>
+			<Where BuildingClassType="BUILDINGCLASS_HAGIA_SOPHIA" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_ANGKOR_WAT"/>
+			<Where BuildingClassType="BUILDINGCLASS_ANGKOR_WAT" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_NOTRE_DAME"/>
+			<Where BuildingClassType="BUILDINGCLASS_NOTRE_DAME" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_MACHU_PICHU"/>
+			<Where BuildingClassType="BUILDINGCLASS_MACHU_PICHU" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_CHICHEN_ITZA"/>
+			<Where BuildingClassType="BUILDINGCLASS_CHICHEN_ITZA" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_KREMLIN"/>
+			<Where BuildingClassType="BUILDINGCLASS_KREMLIN" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_FORBIDDEN_PALACE"/>
+			<Where BuildingClassType="BUILDINGCLASS_FORBIDDEN_PALACE" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_SISTINE_CHAPEL"/>
+			<Where BuildingClassType="BUILDINGCLASS_SISTINE_CHAPEL" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_HIMEJI_CASTLE"/>
+			<Where BuildingClassType="BUILDINGCLASS_HIMEJI_CASTLE" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_PORCELAIN_TOWER"/>
+			<Where BuildingClassType="BUILDINGCLASS_PORCELAIN_TOWER" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_TAJ_MAHAL"/>
+			<Where BuildingClassType="BUILDINGCLASS_TAJ_MAHAL" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_BIG_BEN"/>
+			<Where BuildingClassType="BUILDINGCLASS_BIG_BEN" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_BRANDENBURG_GATE"/>
+			<Where BuildingClassType="BUILDINGCLASS_BRANDENBURG_GATE" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_LOUVRE"/>
+			<Where BuildingClassType="BUILDINGCLASS_LOUVRE" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_EIFFEL_TOWER"/>
+			<Where BuildingClassType="BUILDINGCLASS_EIFFEL_TOWER" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_STATUE_OF_LIBERTY"/>
+			<Where BuildingClassType="BUILDINGCLASS_STATUE_OF_LIBERTY" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_CRISTO_REDENTOR"/>
+			<Where BuildingClassType="BUILDINGCLASS_CRISTO_REDENTOR" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_PENTAGON"/>
+			<Where BuildingClassType="BUILDINGCLASS_PENTAGON" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_UNITED_NATIONS"/>
+			<Where BuildingClassType="BUILDINGCLASS_UNITED_NATIONS" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_SYDNEY_OPERA_HOUSE"/>
+			<Where BuildingClassType="BUILDINGCLASS_SYDNEY_OPERA_HOUSE" CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set BuildingType="BUILDING_PALACE"/>
+			<Where BuildingClassType="BUILDINGCLASS_PALACE" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+	</Civilization_BuildingClassOverrides>
+	<Civilization_UnitClassOverrides>
+		<Update>
+			<Set UnitType="UNIT_BARBARIAN_RANGER"/>
+			<Where UnitClassType="UNITCLASS_SCOUT" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_BARBARIAN_RANGER"/>
+			<Where UnitClassType="UNITCLASS_WARRIOR" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_BARBARIAN_RANGER"/>
+			<Where UnitClassType="UNITCLASS_ARCHER" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_BARBARIAN_RANGER"/>
+			<Where UnitClassType="UNITCLASS_SWORDSMAN" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_BARBARIAN_RANGER"/>
+			<Where UnitClassType="UNITCLASS_CHARIOT_ARCHER" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_BARBARIAN_RANGER"/>
+			<Where UnitClassType="UNITCLASS_SPEARMAN" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_OTHERS"/>
+			<Where UnitClassType="UNITCLASS_CATAPULT" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_OTHERS"/>
+			<Where UnitClassType="UNITCLASS_KNIGHT" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_OTHERS"/>
+			<Where UnitClassType="UNITCLASS_TREBUCHET" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_OTHERS"/>
+			<Where UnitClassType="UNITCLASS_LANCER" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_OTHERS"/>
+			<Where UnitClassType="UNITCLASS_CAVALRY" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<!--
+		<Update>
+			<Set UnitType="UNIT_CHARIOT_ARCHER"/>
+			<Where UnitClassType="UNITCLASS_CHARIOT_ARCHER" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_CATAPULT"/>
+			<Where UnitClassType="UNITCLASS_CATAPULT" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_KNIGHT"/>
+			<Where UnitClassType="UNITCLASS_KNIGHT" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_TREBUCHET"/>
+			<Where UnitClassType="UNITCLASS_TREBUCHET" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set UnitType="UNIT_LANCER"/>
+			<Where UnitClassType="UNITCLASS_LANCER" CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		-->
+		
+
+	</Civilization_UnitClassOverrides>
+
+	<!--Reload Minor Civilizations Leaders-->
+	<Civilization_Leaders>
+		<Update>
+			<Set LeaderheadType="LEADER_BARBARIAN"/>
+			<Where CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set LeaderheadType="LEADER_BARBARIAN"/>
+			<Where CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+		<Update>
+			<Set rowid="6"/>
+			<Where CivilizationType="CIVILIZATION_MINOR"/>
+		</Update>
+		<Update>
+			<Set rowid="7"/>
+			<Where CivilizationType="CIVILIZATION_BARBARIAN"/>
+		</Update>
+	</Civilization_Leaders>
+</GameData>

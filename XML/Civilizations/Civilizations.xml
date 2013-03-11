@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Programming by Martin Mittner-->
+<!-- Created by ModBuddy on 7/28/2012 6:23:26 PM -->
+<GameData>
+	
+	<Civilization_BuildingClassOverrides>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_ARABIA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_EGYPT"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_GREECE"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Delete CivilizationType="CIVILIZATION_PERSIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+		<Delete CivilizationType="CIVILIZATION_AUSTRIA"/>
+		<Delete CivilizationType="CIVILIZATION_BYZANTIUM"/>
+		<Delete CivilizationType="CIVILIZATION_CARTHAGE"/>
+		<Delete CivilizationType="CIVILIZATION_CELTS"/>
+		<Delete CivilizationType="CIVILIZATION_ETHIOPIA"/>
+		<Delete CivilizationType="CIVILIZATION_HUNS"/>
+		<Delete CivilizationType="CIVILIZATION_MAYA"/>
+		<Delete CivilizationType="CIVILIZATION_NETHERLANDS"/>
+		<Delete CivilizationType="CIVILIZATION_SWEDEN"/>
+	</Civilization_BuildingClassOverrides>
+	
+	<!--
+	<Civilization_CityNames>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_ARABIA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_EGYPT"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_GREECE"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Delete CivilizationType="CIVILIZATION_PERSIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+		<Delete CivilizationType="CIVILIZATION_AUSTRIA"/>
+		<Delete CivilizationType="CIVILIZATION_BYZANTIUM"/>
+		<Delete CivilizationType="CIVILIZATION_CARTHAGE"/>
+		<Delete CivilizationType="CIVILIZATION_CELTS"/>
+		<Delete CivilizationType="CIVILIZATION_ETHIOPIA"/>
+		<Delete CivilizationType="CIVILIZATION_HUNS"/>
+		<Delete CivilizationType="CIVILIZATION_MAYA"/>
+		<Delete CivilizationType="CIVILIZATION_NETHERLANDS"/>
+		<Delete CivilizationType="CIVILIZATION_SWEDEN"/>
+	</Civilization_CityNames>
+	<Civilization_FreeBuildingClasses>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_ARABIA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_EGYPT"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_GREECE"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Delete CivilizationType="CIVILIZATION_PERSIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+		<Delete CivilizationType="CIVILIZATION_AUSTRIA"/>
+		<Delete CivilizationType="CIVILIZATION_BYZANTIUM"/>
+		<Delete CivilizationType="CIVILIZATION_CARTHAGE"/>
+		<Delete CivilizationType="CIVILIZATION_CELTS"/>
+		<Delete CivilizationType="CIVILIZATION_ETHIOPIA"/>
+		<Delete CivilizationType="CIVILIZATION_HUNS"/>
+		<Delete CivilizationType="CIVILIZATION_MAYA"/>
+		<Delete CivilizationType="CIVILIZATION_NETHERLANDS"/>
+		<Delete CivilizationType="CIVILIZATION_SWEDEN"/>
+	</Civilization_FreeBuildingClasses>
+	
+	<Civilization_FreeTechs>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_ARABIA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_EGYPT"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_GREECE"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Delete CivilizationType="CIVILIZATION_PERSIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+		<Delete CivilizationType="CIVILIZATION_AUSTRIA"/>
+		<Delete CivilizationType="CIVILIZATION_BYZANTIUM"/>
+		<Delete CivilizationType="CIVILIZATION_CARTHAGE"/>
+		<Delete CivilizationType="CIVILIZATION_CELTS"/>
+		<Delete CivilizationType="CIVILIZATION_ETHIOPIA"/>
+		<Delete CivilizationType="CIVILIZATION_HUNS"/>
+		<Delete CivilizationType="CIVILIZATION_MAYA"/>
+		<Delete CivilizationType="CIVILIZATION_NETHERLANDS"/>
+		<Delete CivilizationType="CIVILIZATION_SWEDEN"/>
+	</Civilization_FreeTechs>
+
+	<Civilization_FreeUnits>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_ARABIA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_EGYPT"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_GREECE"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Delete CivilizationType="CIVILIZATION_PERSIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+		<Delete CivilizationType="CIVILIZATION_AUSTRIA"/>
+		<Delete CivilizationType="CIVILIZATION_BYZANTIUM"/>
+		<Delete CivilizationType="CIVILIZATION_CARTHAGE"/>
+		<Delete CivilizationType="CIVILIZATION_CELTS"/>
+		<Delete CivilizationType="CIVILIZATION_ETHIOPIA"/>
+		<Delete CivilizationType="CIVILIZATION_HUNS"/>
+		<Delete CivilizationType="CIVILIZATION_MAYA"/>
+		<Delete CivilizationType="CIVILIZATION_NETHERLANDS"/>
+		<Delete CivilizationType="CIVILIZATION_SWEDEN"/>
+	</Civilization_FreeUnits>
+	-->
+	
+	<Buildings>
+		<Delete Type="BUILDING_FLOATING_GARDENS"/>
+		<Delete Type="BUILDING_MUGHAL_FORT"/>
+		<Delete Type="BUILDING_KREPOST"/>
+		<Delete Type="BUILDING_LONGHOUSE"/>
+		<Delete Type="BUILDING_BAZAAR"/>
+		<Delete Type="BUILDING_SATRAPS_COURT"/>
+		<Delete Type="BUILDING_PAPER_MAKER"/>
+		<Delete Type="BUILDING_WAT"/>
+		<Delete Type="BUILDING_MUD_PYRAMID_MOSQUE"/>
+		<Delete Type="BUILDING_BURIAL_TOMB"/>
+	</Buildings>
+	<Builds>
+		<Delete Type="BUILD_TERRACE_FARM"/>
+		<Delete Type="BUILD_RAILROAD"/>
+		<Delete Type="BUILD_MOAI"/>
+	</Builds>
+	<Units>
+		<Delete Type="UNIT_ENGLISH_SHIPOFTHELINE"/>
+		<Delete Type="UNIT_AMERICAN_B17"/>
+		<Delete Type="UNIT_JAPANESE_ZERO"/>
+		<Delete Type="UNIT_GERMAN_PANZER"/>
+		<Delete Type="UNIT_FRENCH_FOREIGNLEGION"/>
+		<Delete Type="UNIT_RUSSIAN_COSSACK"/>
+		<Delete Type="UNIT_OTTOMAN_SIPAHI"/>
+		<Delete Type="UNIT_AMERICAN_MINUTEMAN"/>
+		<Delete Type="UNIT_OTTOMAN_JANISSARY"/>
+		<Delete Type="UNIT_JAPANESE_SAMURAI"/>
+		<Delete Type="UNIT_ARABIAN_CAMELARCHER"/>
+		<Delete Type="UNIT_SIAMESE_WARELEPHANT"/>
+		<Delete Type="UNIT_SONGHAI_MUSLIMCAVALRY"/>
+		<Delete Type="UNIT_CHINESE_CHUKONU"/>
+		<Delete Type="UNIT_ENGLISH_LONGBOWMAN"/>
+		<Delete Type="UNIT_GERMAN_LANDSKNECHT"/>
+		<Delete Type="UNIT_ROMAN_BALLISTA"/>
+		<Delete Type="UNIT_GREEK_COMPANIONCAVALRY"/>
+		<Delete Type="UNIT_IROQUOIAN_MOHAWKWARRIOR"/>
+		<Delete Type="UNIT_ROMAN_LEGION"/>
+		<Delete Type="UNIT_EGYPTIAN_WARCHARIOT"/>
+		<Delete Type="UNIT_INDIAN_WARELEPHANT"/>
+		<Delete Type="UNIT_GREEK_HOPLITE"/>
+		<Delete Type="UNIT_PERSIAN_IMMORTAL"/>
+		<Delete Type="UNIT_AZTEC_JAGUAR"/>
+		<Delete Type="UNIT_MONGOLIAN_KESHIK"/>
+		<Delete Type="UNIT_MONGOLIAN_KHAN"/>
+		<Delete Type="UNIT_INCAN_SLINGER"/>
+		<Delete Type="UNIT_SPANISH_TERCIO"/>
+		<Delete Type="UNIT_SPANISH_CONQUISTADOR"/>
+		<Delete Type="UNIT_POLYNESIAN_MAORI_WARRIOR"/>
+		<Delete Type="UNIT_DANISH_BERSERKER"/>
+		<Delete Type="UNIT_DANISH_SKI_INFANTRY"/>
+		<Delete Type="UNIT_KOREAN_TURTLE_SHIP"/>
+		<Delete Type="UNIT_KOREAN_HWACHA"/>
+		<Delete Type="UNIT_BABYLONIAN_BOWMAN"/>
+		<Delete Type="UNIT_CELT_PICTISH_WARRIOR"/>
+		<Delete Type="UNIT_MAYAN_ATLATLIST"/>
+		<Delete Type="UNIT_BYZANTINE_DROMON"/>
+		<Delete Type="UNIT_BYZANTINE_CATAPHRACT"/>
+		<Delete Type="UNIT_CARTHAGINIAN_FOREST_ELEPHANT"/>
+		<Delete Type="UNIT_CARTHAGINIAN_QUINQUEREME"/>
+		<Delete Type="UNIT_HUN_HORSE_ARCHER"/>
+		<Delete Type="UNIT_AUSTRIAN_HUSSAR"/>
+		<Delete Type="UNIT_ETHIOPIAN_MEHAL_SEFARI"/>
+		<Delete Type="UNIT_SWEDISH_CAROLEAN"/>
+		<Delete Type="UNIT_SWEDISH_HAKKAPELIITTA"/>
+		<Delete Type="UNIT_HUN_BATTERING_RAM"/>
+		<Delete Type="UNIT_DUTCH_SEA_BEGGAR"/>
+	</Units>
+
+	<!-- Clean up database -->
+	<DeleteMissingReferences table="Civilization_BuildingClassOverrides" column="CivilizationType"/>
+	<DeleteMissingReferences table="Civilization_CityNames" column="CivilizationType"/>
+	<DeleteMissingReferences table="Civilization_FreeBuildingClasses" column="CivilizationType"/>
+	<DeleteMissingReferences table="Civilization_FreeTechs" column="CivilizationType"/>
+	<DeleteMissingReferences table="Civilization_FreeUnits" column="CivilizationType"/>
+	<DeleteMissingReferences table="Buildings" column="Type"/>
+	<DeleteMissingReferences table="Builds" column="Type"/>
+	<DeleteMissingReferences table="Units" column="Type"/>
+	<!--End clean up database-->
+	
+	<!-- Purge unused civilizations by type-->
+	<Civilizations>
+		<Delete type="CIVILIZATION_AMERICA"/>
+		<Delete type="CIVILIZATION_ARABIA"/>
+		<Delete type="CIVILIZATION_AZTEC"/>
+		<Delete type="CIVILIZATION_CHINA"/>
+		<Delete type="CIVILIZATION_EGYPT"/>
+		<Delete type="CIVILIZATION_ENGLAND"/>
+		<Delete type="CIVILIZATION_FRANCE"/>
+		<Delete type="CIVILIZATION_GERMANY"/>
+		<Delete type="CIVILIZATION_GREECE"/>
+		<Delete type="CIVILIZATION_INDIA"/>
+		<Delete type="CIVILIZATION_IROQUOIS"/>
+		<Delete type="CIVILIZATION_JAPAN"/>
+		<Delete type="CIVILIZATION_OTTOMAN"/>
+		<Delete type="CIVILIZATION_PERSIA"/>
+		<Delete type="CIVILIZATION_ROME"/>
+		<Delete type="CIVILIZATION_RUSSIA"/>
+		<Delete type="CIVILIZATION_SIAM"/>
+		<Delete type="CIVILIZATION_SONGHAI"/>
+		<Delete type="CIVILIZATION_MONGOL"/>
+		<!--
+		<Delete type="CIVILIZATION_BABYLON"/>
+		<Delete type="CIVILIZATION_INCA"/>
+		<Delete type="CIVILIZATION_SPAIN"/>
+		<Delete type="CIVILIZATION_POLYNESIA"/>
+		<Delete type="CIVILIZATION_KOREA"/>
+		<Delete type="CIVILIZATION_DENMARK"/>
+		<Delete type="CIVILIZATION_AUSTRIA"/>
+		<Delete type="CIVILIZATION_BYZANTIUM"/>
+		<Delete type="CIVILIZATION_CARTHAGE"/>
+		<Delete type="CIVILIZATION_CELTS"/>
+		<Delete type="CIVILIZATION_ETHIOPIA"/>
+		<Delete type="CIVILIZATION_HUNS"/>
+		<Delete type="CIVILIZATION_MAYA"/>
+		<Delete type="CIVILIZATION_NETHERLANDS"/>
+		<Delete type="CIVILIZATION_SWEDEN"/>
+		-->
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_BABYLON"/>
+		</Update>
+		<Update>
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_BABYLON"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_INCA"/>
+		</Update>
+		<Update>	
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_INCA"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_SPAIN"/>
+		</Update>
+		<Update>
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_SPAIN"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_POLYNESIA"/>
+		</Update>
+		<Update>
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_POLYNESIA"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_KOREA"/>
+		</Update>
+		<Update>	
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_KOREA"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_DENMARK"/>
+		</Update>
+		<Update>
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_DENMARK"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_AUSTRIA"/>
+		</Update>
+		<Update>	
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_AUSTRIA"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_BYZANTIUM"/>
+		</Update>
+		<Update>
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_BYZANTIUM"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_CARTHAGE"/>
+		</Update>
+		<Update>	
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_CARTHAGE"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_CELTS"/>
+		</Update>
+		<Update>
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_CELTS"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_ETHIOPIA"/>
+		</Update>
+		<Update>
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_ETHIOPIA"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_HUNS"/>
+		</Update>
+		<Update>	
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_HUNS"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_MAYA"/>
+		</Update>
+		<Update>
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_MAYA"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_NETHERLANDS"/>
+		</Update>
+		<Update>	
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_NETHERLANDS"/>
+		</Update>
+		<Update>
+			<Set Playable="false"/>
+			<Where type="CIVILIZATION_SWEDEN"/>
+		</Update>
+		<Update>	
+			<Set AIPlayable="false"/>
+			<Where type="CIVILIZATION_SWEDEN"/>
+		</Update>
+	</Civilizations>
+
+	
+	<Civilization_Leaders>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_ARABIA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_EGYPT"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_GREECE"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Delete CivilizationType="CIVILIZATION_PERSIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+		<Delete CivilizationType="CIVILIZATION_AUSTRIA"/>
+		<Delete CivilizationType="CIVILIZATION_BYZANTIUM"/>
+		<Delete CivilizationType="CIVILIZATION_CARTHAGE"/>
+		<Delete CivilizationType="CIVILIZATION_CELTS"/>
+		<Delete CivilizationType="CIVILIZATION_ETHIOPIA"/>
+		<Delete CivilizationType="CIVILIZATION_HUNS"/>
+		<Delete CivilizationType="CIVILIZATION_MAYA"/>
+		<Delete CivilizationType="CIVILIZATION_NETHERLANDS"/>
+		<Delete CivilizationType="CIVILIZATION_SWEDEN"/>
+	</Civilization_Leaders>
+	<Leaders>
+		<Delete Type="LEADER_ALEXANDER"/>
+		<Delete Type="LEADER_ASKIA"/>
+		<Delete Type="LEADER_AUGUSTUS"/>
+		<Delete Type="LEADER_BISMARCK"/>
+		<Delete Type="LEADER_CATHERINE"/>
+		<Delete Type="LEADER_DARIUS"/>
+		<Delete Type="LEADER_ELIZABETH"/>
+		<Delete Type="LEADER_GANDHI"/>
+		<Delete Type="LEADER_HARUN_AL_RASHID"/>
+		<Delete Type="LEADER_HIAWATHA"/>
+		<Delete Type="LEADER_MONTEZUMA"/>
+		<Delete Type="LEADER_NAPOLEON"/>
+		<Delete Type="LEADER_ODA_NOBUNAGA"/>
+		<Delete Type="LEADER_RAMESSES"/>
+		<Delete Type="LEADER_RAMKHAMHAENG"/>
+		<Delete Type="LEADER_SULEIMAN"/>
+		<Delete Type="LEADER_WASHINGTON"/>
+		<Delete Type="LEADER_WU_ZETIAN"/>
+		<Delete Type="LEADER_GENGHIS_KHAN"/>
+		<Delete Type="LEADER_ISABELLA"/>
+		<Delete Type="LEADER_PACHACUTI"/>
+		<Delete Type="LEADER_KAMEHAMEHA"/>
+		<Delete Type="LEADER_HARALD"/>
+		<Delete Type="LEADER_SEJONG"/>
+		<Delete Type="LEADER_NEBUCHADNEZZAR"/>
+		<Delete Type="LEADER_ATTILA"/>
+		<Delete Type="LEADER_BOUDICCA"/>
+		<Delete Type="LEADER_DIDO"/>
+		<Delete Type="LEADER_GUSTAVUS_ADOLPHUS"/>
+		<Delete Type="LEADER_MARIA"/>
+		<Delete Type="LEADER_PACAL"/>
+		<Delete Type="LEADER_THEODORA"/>
+		<Delete Type="LEADER_SELASSIE"/>
+		<Delete Type="LEADER_WILLIAM"/>
+		<Update>
+			<Set ID="6"/>
+			<Where Type="LEADER_BARBARIAN"/>
+		</Update>
+	</Leaders>
+	
+	<DeleteMissingReferences table="Civilizations" column="Type"/>
+	<DeleteMissingReferences table="Civilization_Leaders" column="CivilizationType"/>
+	<DeleteMissingReferences table="Leaders" column="Type"/>
+	
+</GameData>

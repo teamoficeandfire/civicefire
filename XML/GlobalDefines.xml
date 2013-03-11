@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/31/2012 2:44:52 PM -->
+<GameData>
+	<Defines>
+		<Update>
+			<Set Value="10"/>
+			<Where Name="RELIGION_MIN_FAITH_FIRST_PANTHEON"/>
+		</Update>
+	</Defines>
+</GameData>

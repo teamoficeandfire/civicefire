@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="de530e2d-2509-4bfa-af12-8cd89f1f05c4" version="3">
+  <Properties>
+    <Name>A Civ of Ice and Fire</Name>
+    <Teaser>King Baratheon is dead and The War of The Five Kings is upon Westeros. The Bastard child Joffrey sits on the iron thrown, alleg</Teaser>
+    <Description>King Baratheon is dead and war is upon Westeros. The bastard child Joffrey sits on the Iron Throne, allegiances are forming among the houses. Take up your sword and take on your sigil. Conquer your foes and become the one true king (or queen) of Westeros! IMPORTANT NOTE:To see the custom leader diplomacy screens:1) Go to ...\Documents\My Games\Sid Meier's Civilization 5. 2) Find either the GraphicsSettingsDX11.ini or GraphicsSettingsDX9.ini file. 3) Open the Graphics Settings file with Notepad. 4) Where is says: Whether or not to use static screenshots of leaders (this is the default for min-spec machines) UseScreenShots = 0 CHANGE  UseScreenShots =0  to UseScreenShots = 1.  5) Restart Civ 5 if it is open, and have fun :-) Transfer the Map from the Mod's map folder into your main Map folder. KNOWN BUG: The first time you play the scenario civs will appear as random slots they are not they appear in the normal order. Dev objectives and contact info to join team available in extended description in Mod Info.</Description>
+    <Authors>Martin Mittner</Authors>
+    <SpecialThanks>Dana Haddrill, Jeff Williamson, Katherine Dinger (Portraits Cersei and Stannis)</SpecialThanks>
+    <HideSetupGame>0</HideSetupGame>
+    <Homepage>http://www.coroflot.com/grok</Homepage>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="4A65C5B051D54145EC325775C822B255" import="1">Art/Baratheon.dds</File>
+    <File md5="22D1E7767F87193B16DD2CE0E10C519E" import="1">Art/BaratheonDOM.dds</File>
+    <File md5="CD367C77CF8221C8277244B461BAA3D2" import="1">Art/BuildingsAtlas128.dds</File>
+    <File md5="8B3CDB8CFFDD93B3D28BE357DAB1289E" import="1">Art/BuildingsAtlas256.dds</File>
+    <File md5="F60AE7FC101D4B9DBB2A7C6C429CCF83" import="1">Art/BuildingsAtlas45.dds</File>
+    <File md5="9BFB7DD3099245720012EC26B2263EC3" import="1">Art/BuildingsAtlas64.dds</File>
+    <File md5="1DA2B55F051721AB3C577F3EA5C1885E" import="1">Art/CivSymbolsColorLegends128.dds</File>
+    <File md5="09A4EDA668CA731F0E749AC2DC60D934" import="1">Art/CivSymbolsColorLegends256.dds</File>
+    <File md5="683812CDC0FDBDF88B791371E2CCFF76" import="1">Art/CivSymbolsColorLegends32.dds</File>
+    <File md5="93C55648ECFBD1697660BC16E763BC77" import="1">Art/CivSymbolsColorLegends45.dds</File>
+    <File md5="3327EB01A4EC445B411FBC237C6DC26D" import="1">Art/CivSymbolsColorLegends64.dds</File>
+    <File md5="171BC27AFE15039E6BD20052ECC2C495" import="1">Art/CivSymbolsColorLegends80.dds</File>
+    <File md5="668252FC537EF98A2857DA85D09402AE" import="1">Art/Greyjoy.dds</File>
+    <File md5="3C46DEEDEA229F72B1256A064AB5009A" import="1">Art/GreyjoyDOM.dds</File>
+    <File md5="314FE2AB00FCC92BE6FBAC6BC4FF0F9E" import="1">Art/Lannister.dds</File>
+    <File md5="F4C55E8792CF72084BF6C49116462B99" import="1">Art/LannisterDOM.dds</File>
+    <File md5="3A37788EA9189E98FB47DB49064710C9" import="1">Art/MapBaratheon.dds</File>
+    <File md5="C1A0F0B8283F05D7A962A9086F0E4493" import="1">Art/MapGreyjoy.dds</File>
+    <File md5="D4224D9E82FD6A54ACF90493FFC85F8E" import="1">Art/MapLannister.dds</File>
+    <File md5="09A46AFBA94EE037AF0BBD54735C4B0F" import="1">Art/MapStark.dds</File>
+    <File md5="558F84265F2CCACA16B7729727244FAA" import="1">Art/MapTargaryen.dds</File>
+    <File md5="04C2C09F55FD37DBE505290A82FECB4A" import="1">Art/MapWatch.dds</File>
+    <File md5="54C8C96AB121EFB765F437EF79D579F5" import="1">Art/ModFlags.dds</File>
+    <File md5="A7F13DB55E093A6D1EC17E583F02BEC3" import="1">Art/ModResources2048.dds</File>
+    <File md5="B11CD078AC24105877392B23FBB98EB6" import="1">Art/ModResources360.dds</File>
+    <File md5="1287E895E9E31679C990E941C4D2BE2F" import="1">Art/ModResources512.dds</File>
+    <File md5="A6290CB8683A1855BE1A11DDB93AD8AA" import="1">Art/ModResources640.dds</File>
+    <File md5="F76F2E99370BA5AA0269C8023F2E5659" import="1">Art/Snow.dds</File>
+    <File md5="800DC7C23083EF0D184F445C1530CD61" import="1">Art/SnowDOM.dds</File>
+    <File md5="D6F34BBBC5BD69AFE4A1BB4A6ABAFCC3" import="1">Art/Stark.dds</File>
+    <File md5="D9609A6AD4584974D9C5ABA27A04DA90" import="1">Art/StarkDOM.dds</File>
+    <File md5="4162CEE9E43B78A42698251D32A4BAD6" import="1">Art/Targaryen.dds</File>
+    <File md5="47DA28DC69F228707F476629F5BE7983" import="1">Art/TargaryenDOM.dds</File>
+    <File md5="9C3A04BC356FFBCD3DA210CF6A98823F" import="1">Art/TechsAtlas128.dds</File>
+    <File md5="07BB75754B30B6E64F3273BB1CD14B40" import="1">Art/TechsAtlas214.dds</File>
+    <File md5="EC8FE07DA937C94F97003651557E7634" import="1">Art/TechsAtlas256.dds</File>
+    <File md5="9403269AD98088349DB47F00C6065CBC" import="1">Art/TechsAtlas45.dds</File>
+    <File md5="A1D5934609CC8B2498A68012B53002AB" import="1">Art/TechsAtlas64.dds</File>
+    <File md5="DB269C029216632A486AAC7EF1C76EC1" import="1">Art/TechsAtlas80.dds</File>
+    <File md5="ED0B1C9092CCF24A25C44579B7D4E89F" import="1">Art/UnitsAtlas128.dds</File>
+    <File md5="37D61465756624438CE4ED40BAC855B5" import="1">Art/UnitsAtlas256.dds</File>
+    <File md5="15556045130222F783A80CCFAA1D2704" import="1">Art/UnitsAtlas45.dds</File>
+    <File md5="689446CC02A38ABE1AF835064345B1CF" import="1">Art/UnitsAtlas64.dds</File>
+    <File md5="D8E24DB8ECA85A760EDBD37959C31098" import="1">Art/UnitsAtlas80.dds</File>
+    <File md5="FE2A1F76C682CCC04EE165BB6DC40044" import="1">Lua/AssignStartingPlots.lua</File>
+    <File md5="FD8E144A6887D50951055233B3CA41E1" import="0">Lua/PantheonPopup.lua</File>
+    <File md5="ACD09E82BC995776B4B27F5B904C77AF" import="0">Lua/ReligionPopup.lua</File>
+    <File md5="913B83B0B5A999667C471925929732F2" import="0">Lua/ResourceIconManager.lua</File>
+    <File md5="079D70820FA7AF5D82C17EE03EA62C04" import="1">Lua/TechTree.lua</File>
+    <File md5="264A23C69929DF3D538109BE48046347" import="0">Map/Westeros_and_Essos.Civ5Map</File>
+    <File md5="2745C9B43B1EBF12A3FFC2449FE357F7" import="0">XML/Buildings/CIV5Buildings.xml</File>
+    <File md5="52689EDE80D749C34FE3EDD3A3DE4214" import="0">XML/Civilizations/CIV5MinorCivilizations.xml</File>
+    <File md5="E62CB68E907CF5E17A5A4C6E8505A25F" import="0">XML/Civilizations/CIV5Traits.xml</File>
+    <File md5="3AABC0A928CF4E6B7B5FD582B9C8F458" import="0">XML/Civilizations/Civ_Baratheon.xml</File>
+    <File md5="6360600B00947D13B9F21D17FB77E699" import="0">XML/Civilizations/Civ_Greyjoy.xml</File>
+    <File md5="B1261A0C460438A8E6F9220E4C8B9A27" import="0">XML/Civilizations/Civ_Lannister.xml</File>
+    <File md5="605C524A7F3375F021C20E21A3007336" import="0">XML/Civilizations/Civ_Stark.xml</File>
+    <File md5="709677DF74A68E009940DDEC3F91A55E" import="0">XML/Civilizations/Civ_Targaryen.xml</File>
+    <File md5="4C971DB959CF654E8B7C239E9429C59F" import="0">XML/Civilizations/Civ_Watch.xml</File>
+    <File md5="D8C0CA0179820BF4FAE3525AAE22A80E" import="0">XML/Civilizations/Civilizations.xml</File>
+    <File md5="C0E48BA55E81EC3136D4FBF59BB53765" import="0">XML/Civilizations/MaxWorldToCivs.xml</File>
+    <File md5="75BC4F1B73F47DC1FAB8C0443C63F0A5" import="0">XML/Diplomacy/Civ5Diplomacy_Responses.xml</File>
+    <File md5="0836862F41E3384FED3E1DF75502EE5B" import="0">XML/GameInfo/CIV5IconTextureAtlases.xml</File>
+    <File md5="452B59CADEBA773F19E3B99FB06E73F0" import="0">XML/GameInfo/CIV5Specialists.xml</File>
+    <File md5="0CE19F8B02AD4FC4358BE76A26F7BABE" import="0">XML/GlobalDefines.xml</File>
+    <File md5="C9C554BFB4CDC0C0AF89E2616A18A827" import="0">XML/Interface/CIV5PlayerColors.xml</File>
+    <File md5="54DA1C3EA6FD328B7BA03F67EEA5DF8C" import="1">XML/Leaders/Baratheon_Scene.xml</File>
+    <File md5="5C005A2C2206B8EEEFEA8711E854ABE1" import="0">XML/Leaders/CIV5Leader_Baratheon.xml</File>
+    <File md5="80D5F70D9B487F6E64650EE68DE44318" import="0">XML/Leaders/CIV5Leader_Greyjoy.xml</File>
+    <File md5="8817E50BD5EB1A816003F41E5E260FD5" import="0">XML/Leaders/CIV5Leader_Lannister.xml</File>
+    <File md5="9F52EC9209A6268AC845F8E31A9BE3D1" import="0">XML/Leaders/CIV5Leader_Snow.xml</File>
+    <File md5="7FAA394E4C1956A5E84E1F42733F266A" import="0">XML/Leaders/CIV5Leader_Stark.xml</File>
+    <File md5="C3720EB92A28E6B91C798114B071B7E1" import="0">XML/Leaders/CIV5Leader_Targaryen.xml</File>
+    <File md5="76F0A77D0DEDB9ADA5BC28F66714D7A6" import="1">XML/Leaders/Greyjoy_Scene.xml</File>
+    <File md5="2A71CC13D791FFC48E5621234F1B9598" import="1">XML/Leaders/Lannister_Scene.xml</File>
+    <File md5="032B0AA6F481B19F92DC145CD5C5FAA3" import="1">XML/Leaders/Snow_Scene.xml</File>
+    <File md5="FC1C45F082DD19FF1BD06320E0F6D84F" import="1">XML/Leaders/Stark_Scene.xml</File>
+    <File md5="69B5E7CB93FA99A8F3E1CCEB9AE72569" import="1">XML/Leaders/Targaryen_Scene.xml</File>
+    <File md5="D64042C875D9449DBAE1C65683914406" import="0">XML/NewText/GameText.xml</File>
+    <File md5="30EEE7EB4AE901EF2D6C079D6AD9BFC4" import="0">XML/NewText/GameTextResources.xml</File>
+    <File md5="C2887A303312E9E23CB765EBBB959ED8" import="0">XML/Resources/CIV5Resources.xml</File>
+    <File md5="F4C25CF3485D74D2B2AF7F39A0881F7A" import="0">XML/Resources/ModifyResources.xml</File>
+    <File md5="DF638F9B94433092A2E55BCF1259029D" import="0">XML/Resources/RemoveModernResources.xml</File>
+    <File md5="29D4E285F28228406D7C05394B46CA7D" import="0">XML/Technologies/CIV5Technologies.xml</File>
+    <File md5="788828B3CCE8D9366273F020B0F5FB68" import="0">XML/Terrain/CIV5Improvements.xml</File>
+    <File md5="8275D0B2881B0560900567433EDB7AD3" import="0">XML/Terrain/CIV5Features.xml</File>
+    <File md5="BE51DD1847A710A9249831FF90191D9C" import="0">XML/Units/CIV5Units.xml</File>
+    <File md5="1F098FDF6F109FC7B3F21B5ABC4E6C82" import="0">XML/Units/Promotions.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>XML/NewText/GameText.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Resources/RemoveModernResources.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Resources/ModifyResources.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/CIV5IconTextureAtlases.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Interface/CIV5PlayerColors.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/CIV5Traits.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/CIV5MinorCivilizations.xml</UpdateDatabase>
+      <UpdateDatabase>XML/GameInfo/CIV5Specialists.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/CIV5Features.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Terrain/CIV5Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Resources/CIV5Resources.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Buildings/CIV5Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/CIV5Units.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Units/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Diplomacy/Civ5Diplomacy_Responses.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Baratheon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Greyjoy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Lannister.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Stark.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Targaryen.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/Civ_Watch.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/CIV5Leader_Baratheon.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/CIV5Leader_Greyjoy.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/CIV5Leader_Lannister.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/CIV5Leader_Snow.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/CIV5Leader_Stark.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/CIV5Leader_Targaryen.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Greyjoy_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Lannister_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Snow_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Stark_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Targaryen_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Leaders/Baratheon_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Technologies/CIV5Technologies.xml</UpdateDatabase>
+      <UpdateDatabase>XML/Civilizations/MaxWorldToCivs.xml</UpdateDatabase>
+      <UpdateDatabase>XML/NewText/GameTextResources.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/AssignStartingPlots.lua">
+      <Name>AssignStartingPlots</Name>
+      <Description>Resource Changes</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

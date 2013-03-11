@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2010 3:32:13 PM -->
+<LeaderScene lights="" camera="" ColorKey=""  cubemap_prefix ="" FallbackImage="Snow.dds">
+	<LeaderObject>Snow.dds</LeaderObject>
+	<BackgroundObject>Snow.dds</BackgroundObject>
+	<BackgroundObject>Snow.dds</BackgroundObject>
+</LeaderScene>

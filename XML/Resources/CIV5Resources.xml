@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/28/2010 2:37:53 PM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_RESOURCE_FACES">
+			<Text>Faces</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_FACES_HELP">
+			<Text>Pain is paid for each, but this is the price of power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_FACES_TEXT">
+			<Text>The faces of the the young the old, the sick, the uggly, the beautiful, the strong, women&#39;s faces and men&#39;s, even the faces of babe&#39;s can be found in the depths of the house of black and white. Each face will allow the wearer to become that person so much so that their own mother would never know them.</Text>
+		</Row>
+
+		<Row Tag="MOD_TXT_KEY_RESOURCE_DRAGONEGGS">
+			<Text>Dragon Eggs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_DRAGONEGGS_TEXT">
+			<Text>The world believes that dragons are no more. They are gone, the last dragon a pathetic wretch that laid a clutch of five eggs that never hatched. However, the eggs of a magical beast may have magical properties themselves, and who is to say the misshapeness of Aegon III Dragonbane&#39;s green was anything but the result of being kept away from the sky all her life... Perhaps dragons can rise from ancient eggs once more.</Text>
+		</Row>
+		<Row Tag="MOD_TXT_KEY_RESOURCE_DRAGONEGGS_HELP">
+			<Text>Beautiful eggs, warming them by the fire alone will not hatch them. Without a dragon mother, you must pay the price. A life for a life.</Text>
+		</Row>
+
+		<Row Tag="MOD_TXT_KEY_MAESTER_CHAINS">
+			<Text>Maester Chains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MAESTER_CHAINS_TEXT">
+			<Text>These chains are formed from every metal known to man, but almost no maester will ever wear them all. Maesters do not remove the chain ever, not even when sleeping.</Text>
+		</Row>
+		<Row Tag="MOD_TXT_KEY_MAESTER_CHAINS_HELP">
+			<Text>The chain of a maester is painstakingly forged through knowledge.</Text>
+		</Row>
+
+		<Row Tag="MOD_TXT_KEY_HOLY_BOOKS">
+			<Text>Books of The Seven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HOLY_BOOKS_TEXT">
+			<Text>Each of the Seven has his or her own book. The Seven are known as the Father, Mother, Warrior, Maiden, Smith, Crone, and Stranger.</Text>
+		</Row>
+		<Row Tag="MOD_TXT_KEY_HOLY_BOOKS_HELP">
+			<Text>The Books of the Seven give many hope in dark times, and in some they inpire a true calling.</Text>
+		</Row>
+	</Language_en_US>	
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>MOD_RESOURCE_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ModResources2048.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOD_RESOURCE_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ModResources640.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOD_RESOURCE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ModResources512.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOD_RESOURCE_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ModResources360.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>	
+	<Resources>
+		<Update>
+			<Set TechReveal="TECH_MINING"/>
+			<Where Type="RESOURCE_IRON"/>
+		</Update>
+		<Row>
+			<Type>RESOURCE_FACES</Type>
+			<TechReveal>TECH_DRAMA</TechReveal>
+			<TechCityTrade></TechCityTrade>
+			<Description>TXT_KEY_RESOURCE_FACES</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_FACES_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_FACES_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_MODERN</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_ALUMINUM</ArtDefineTag>
+			<AITradeModifier>10</AITradeModifier>
+			<AIObjective>1</AIObjective>
+			<PlacementOrder>1</PlacementOrder>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>10</RandApp1>
+			<RandApp2>10</RandApp2>
+			<Player>100</Player>
+			<Flatlands>true</Flatlands>
+			<NoRiverSide>true</NoRiverSide>
+			<IconString>[ICON_RES_FACES]</IconString>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>MOD_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>RESOURCE_DRAGONEGGS</Type>
+			<TechReveal>TECH_DRAGON_EGGS</TechReveal>
+			<TechCityTrade></TechCityTrade>
+			<Description>MOD_TXT_KEY_RESOURCE_DRAGONEGGS</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_DRAGONEGGS_TEXT</Civilopedia>
+			<Help>MOD_TXT_KEY_RESOURCE_DRAGONEGGS_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_MODERN</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_CITRUS</ArtDefineTag>
+			<AITradeModifier>20</AITradeModifier>
+			<AIObjective>2</AIObjective>
+			<PlacementOrder>1</PlacementOrder>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>10</RandApp1>
+			<RandApp2>10</RandApp2>
+			<Player>100</Player>
+			<Flatlands>true</Flatlands>
+			<NoRiverSide>true</NoRiverSide>
+			<IconString>[ICON_RES_OMEGA]</IconString>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>MOD_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>RESOURCE_MAESTER_CHAINS</Type>
+			<TechReveal>TECH_ECONOMICS</TechReveal>
+			<TechCityTrade></TechCityTrade>
+			<Description>MOD_TXT_KEY_MAESTER_CHAINS</Description>
+			<Civilopedia>TXT_KEY_CIV5_MAESTER_CHAINS_TEXT</Civilopedia>
+			<Help>MOD_TXT_KEY_MAESTER_CHAINS_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_MODERN</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_ALUMINUM</ArtDefineTag>
+			<AITradeModifier>10</AITradeModifier>
+			<AIObjective>1</AIObjective>
+			<PlacementOrder>1</PlacementOrder>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>10</RandApp1>
+			<RandApp2>10</RandApp2>
+			<Player>100</Player>
+			<Flatlands>true</Flatlands>
+			<NoRiverSide>true</NoRiverSide>
+			<IconString>[ICON_RES_MAESTER_CHAINS]</IconString>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>MOD_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>RESOURCE_HOLY_BOOKS</Type>
+			<TechReveal>TECH_THEOLOGY</TechReveal>
+			<TechCityTrade></TechCityTrade>
+			<Description>MOD_TXT_KEY_HOLY_BOOKS</Description>
+			<Civilopedia>TXT_KEY_CIV5_HOLY_BOOKS_TEXT</Civilopedia>
+			<Help>MOD_TXT_KEY_HOLY_BOOKS_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_MODERN</ResourceClassType>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_HOLY_SITE</ArtDefineTag>
+			<AITradeModifier>10</AITradeModifier>
+			<AIObjective>1</AIObjective>
+			<PlacementOrder>1</PlacementOrder>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>10</RandApp1>
+			<RandApp2>10</RandApp2>
+			<Player>100</Player>
+			<Flatlands>true</Flatlands>
+			<NoRiverSide>true</NoRiverSide>
+			<IconString>[ICON_MISSIONARY]</IconString>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>MOD_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+	</Resources>
+	<IconFontMapping>
+		<Row>
+			<IconName>ICON_RES_FACES</IconName>
+			<IconMapping>33</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RES_OMEGA</IconName>
+			<IconMapping>78</IconMapping>
+		</Row>
+		<Row>
+			<IconName>ICON_RES_MAESTER_CHAINS</IconName>
+			<IconMapping>52</IconMapping>
+		</Row>
+	</IconFontMapping>
+</GameData>

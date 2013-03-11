@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/19/2010 3:31:59 PM -->
+<LeaderScene lights="" camera="" ColorKey=""  cubemap_prefix ="" FallbackImage="Greyjoy.dds">
+	<LeaderObject>Greyjoy.dds</LeaderObject>
+	<BackgroundObject>Greyjoy.dds</BackgroundObject>
+	<BackgroundObject>Greyjoy.dds</BackgroundObject>
+</LeaderScene>

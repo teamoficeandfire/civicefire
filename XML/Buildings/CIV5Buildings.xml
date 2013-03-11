@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/11/2010 12:24:42 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_ANCIENT_ARTIFACT</Type>
+			<DefaultBuilding>BUILDING_ANCIENT_ARTIFACT</DefaultBuilding>
+			<Description>TXT_KEY_ANCIENT_ARTIFACT</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_DRAGONGLASS_MINE</Type>
+			<DefaultBuilding>BUILDING_DRAGONGLASS_MINE</DefaultBuilding>
+			<Description>TXT_KEY_DRAGONGLASS_MINE</Description>
+		</Row>
+	</BuildingClasses>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>MOD_COLOR_ATLAS_BUILDINGS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>BuildingsAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOD_COLOR_ATLAS_BUILDINGS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>BuildingsAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOD_COLOR_ATLAS_BUILDINGS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>BuildingsAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>MOD_COLOR_ATLAS_BUILDINGS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>BuildingsAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<Buildings>
+		<Update>
+			<Set SpecialistType="SPECIALIST_ALCHEMIST" SpecialistCount="1"/>
+			<Where Type="BUILDING_PALACE"/>
+		</Update>
+		<Update>
+			<Set SpecialistType="SPECIALIST_MYSTIC" SpecialistCount="1"/>
+			<Where Type="BUILDING_TEMPLE"/>
+		</Update>
+		
+		<!-- Creat THE WALL out of the Great Wall wonder-->
+		<Update>
+			<Where Type="BUILDING_GREAT_WALL"/>
+			<Set Description="TXT_KEY_BUILDING_THE_WALL" Civilopedia="TXT_KEY_CIV5_BUILDINGS_THE_WALL_TEXT" Quote="TXT_KEY_BUILDING_THE_WALL_QUOTE" Strategy="TXT_KEY_BUILDING_THE_WALL_STRATEGY" Help="TXT_KEY_BUILDING_THE_WALL_STRATEGY"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_WALL"/>
+			<Set Happiness="2" SpecialistType="SPECIALIST_STEWARD" ObsoleteTech=""/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_WALL"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="0" PrereqTech="TECH_MASONRY"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_WALL"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra=""/>
+		</Update>
+		
+		<!-- End Creat THE WALL out of the Great Wall wonder -->
+		
+		<!-- Creat THE CITADEL out of the PORCELAIN TOWER wonder-->
+		<Update>
+			<Where Type="BUILDING_PORCELAIN_TOWER"/>
+			<Set Description="TXT_KEY_BUILDING_THE_CITADEL" Civilopedia="TXT_KEY_CIV5_BUILDINGS_THE_CITADEL_TEXT" Quote="TXT_KEY_BUILDING_THE_CITADEL_QUOTE" Strategy="TXT_KEY_BUILDING_THE_CITADEL_STRATEGY" Help="TXT_KEY_BUILDING_THE_CITADEL_STRATEGY"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PORCELAIN_TOWER"/>
+			<Set Happiness="3" SpecialistType="SPECIALIST_ALCHEMIST" ObsoleteTech="" MedianTechPercentChange="" MaxStartEra=""/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PORCELAIN_TOWER"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="5" PrereqTech="TECH_ECONOMICS" TradeRouteModifier="15"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PORCELAIN_TOWER"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra="" Cost="700"/>
+		</Update>
+		<!-- Creat THE WALL out of the PORCELAIN TOWER wonder-->
+
+		<!-- Creat THE IRON_THRONE out of the STATUE_ZEUS wonder-->
+		<Update>
+			<Where Type="BUILDING_STATUE_ZEUS"/>
+			<Set Description="TXT_KEY_BUILDING_IRON_THRONE" Civilopedia="TXT_KEY_CIV5_BUILDINGS_IRON_THRONE_TEXT" Quote="TXT_KEY_BUILDING_IRON_THRONE_QUOTE" Strategy="TXT_KEY_BUILDING_IRON_THRONE_STRATEGY" Help="TXT_KEY_BUILDING_IRON_THRONE_STRATEGY"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_STATUE_ZEUS"/>
+			<Set Happiness="8" SpecialistType="SPECIALIST_ALCHEMIST" ObsoleteTech="" Cost="350"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_STATUE_ZEUS"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="6" PrereqTech="TECH_STEEL" HappinessPerCity="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_STATUE_ZEUS"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" FreePromotion="PROMOTION_IRON_THRONE" MaxStartEra=""/>
+		</Update>
+		<!-- Creat THE IRON_THRONE of the STATUE_ZEUS wonder-->
+
+		<!-- Creat THE SEASTONE_CHAIR out of the GREAT_LIGHTHOUSE wonder-->
+		<Update>
+			<Where Type="BUILDING_GREAT_LIGHTHOUSE"/>
+			<Set Description="TXT_KEY_BUILDING_SEASTONE_CHAIR" Civilopedia="TXT_KEY_CIV5_BUILDINGS_SEASTONE_CHAIR_TEXT" Quote="TXT_KEY_BUILDING_SEASTONE_CHAIR_QUOTE" Strategy="TXT_KEY_BUILDING_SEASTONE_CHAIR_STRATEGY" Help="TXT_KEY_BUILDING_SEASTONE_CHAIR_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_LIGHTHOUSE"/>
+			<Set ObsoleteTech="" Cost="250"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_LIGHTHOUSE"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="7" FreePromotion="PROMOTION_IRONFLEET"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_LIGHTHOUSE"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra=""/>
+		</Update>
+		<!-- END Create THE SEASTONE_CHAIR out of the GREAT_LIGHTHOUSE wonder-->
+
+		<!-- Create THE TOWER_OF_JOY out of the ORACLE wonder-->
+		<Update>
+			<Where Type="BUILDING_ORACLE"/>
+			<Set Description="TXT_KEY_BUILDING_TOWER_OF_JOY" Civilopedia="TXT_KEY_CIV5_BUILDINGS_TOWER_OF_JOY_TEXT" Quote="TXT_KEY_BUILDING_TOWER_OF_JOY_QUOTE" Strategy="TXT_KEY_BUILDING_TOWER_OF_JOY_STRATEGY" Help="TXT_KEY_BUILDING_TOWER_OF_JOY_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_ORACLE"/>
+			<Set ObsoleteTech="" Cost="300" FreePolicies="" Happiness="5" SpecialistType="SPECIALIST_ARTIST" PrereqTech="TECH_CONSTRUCTION"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_ORACLE"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="8" FreePromotion="" GreatPeopleRateModifier="10"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_ORACLE"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra=""/>
+		</Update>
+		<!-- END Create THE TOWER_OF_JOY out of the ORACLE wonder-->
+
+		<!-- Create THE WATER_GARDENS out of the HANGING_GARDEN wonder-->
+		<Update>
+			<Where Type="BUILDING_HANGING_GARDEN"/>
+			<Set Description="TXT_KEY_BUILDING_WATER_GARDENS" Civilopedia="TXT_KEY_CIV5_BUILDINGS_WATER_GARDENS_TEXT" Quote="TXT_KEY_BUILDING_WATER_GARDENS_QUOTE" Strategy="TXT_KEY_BUILDING_WATER_GARDENS_STRATEGY" Help="TXT_KEY_BUILDING_WATER_GARDENS_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HANGING_GARDEN"/>
+			<Set ObsoleteTech="" Cost="350" Happiness="4" SpecialistType="SPECIALIST_ENGINEER" PrereqTech="TECH_ENGINEERING"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HANGING_GARDEN"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="9" FreePromotion="" GreatPeopleRateChange="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HANGING_GARDEN"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra="" FreeBuilding="BUILDINGCLASS_GARDEN" FreeBuildingThisCity=""/>
+		</Update>
+		<!-- END Create THE TOWER_OF_JOY out of the ORACLE wonder-->
+
+		<!-- Create THE SEPT_BAELOR out of the HAGIA_SOPHIA wonder-->
+		<Update>
+			<Where Type="BUILDING_HAGIA_SOPHIA"/>
+			<Set Description="TXT_KEY_BUILDING_SEPT_BAELOR" Civilopedia="TXT_KEY_CIV5_BUILDINGS_SEPT_BAELOR_TEXT" Quote="TXT_KEY_BUILDING_SEPT_BAELOR_QUOTE" Strategy="TXT_KEY_BUILDING_SEPT_BAELOR_STRATEGY" Help="TXT_KEY_BUILDING_SEPT_BAELOR_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HAGIA_SOPHIA"/>
+			<Set ObsoleteTech="" Cost="300" SpecialistType="SPECIALIST_ARTIST"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HAGIA_SOPHIA"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="10" GreatPeopleRateChange="3"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HAGIA_SOPHIA"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra="" FreeBuildingThisCity="BUILDINGCLASS_TEMPLE"/>
+		</Update>
+		<!-- END Create THE TOWER_OF_JOY out of the HAGIA_SOPHIA wonder-->
+
+		<!-- Create MOAT_CAILIN out of the STONEHENGE wonder-->
+		<Update>
+			<Where Type="BUILDING_STONEHENGE"/>
+			<Set Description="TXT_KEY_BUILDING_MOAT_CAILIN" Civilopedia="TXT_KEY_CIV5_BUILDINGS_MOAT_CAILIN_TEXT" Quote="TXT_KEY_BUILDING_MOAT_CAILIN_QUOTE" Strategy="TXT_KEY_BUILDING_MOAT_CAILIN_STRATEGY" Help="TXT_KEY_BUILDING_MOAT_CAILIN_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_STONEHENGE"/>
+			<Set ObsoleteTech="" Cost="250" Defense="500" ExtraCityHitPoints="50" PrereqTech="TECH_MATHEMATICS"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_STONEHENGE"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="11" GreatPeopleRateChange="1" AllowsRangeStrike="true"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_STONEHENGE"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra="" FreePromotion="PROMOTION_DEFEND_NEAR_CAPITAL"/>
+		</Update>
+		<!-- END Create MOAT_CAILIN out of the STONEHENGE wonder-->
+		
+		<!-- Create FISH_FOOT out of the ALHAMBRA wonder-->
+		<Update>
+			<Where Type="BUILDING_ALHAMBRA"/>
+			<Set Description="TXT_KEY_BUILDING_FISH_FOOT" Civilopedia="TXT_KEY_CIV5_BUILDINGS_FISH_FOOT_TEXT" Quote="TXT_KEY_BUILDING_FISH_FOOT_QUOTE" Strategy="TXT_KEY_BUILDING_FISH_FOOT_STRATEGY" Help="TXT_KEY_BUILDING_FISH_FOOT_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_ALHAMBRA"/>
+			<Set ObsoleteTech="" Cost="185" PrereqTech="TECH_PHILOSOPHY"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_ALHAMBRA"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="12" GreatPeopleRateChange="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_ALHAMBRA"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra="" TrainedFreePromotion="" CultureRateModifier="33" FreeBuildingThisCity="BUILDINGCLASS_WATERMILL"/>
+		</Update>
+		<!-- END Create FISH_FOOT out of the ALHAMBRA wonder-->
+
+		<!-- Create WOLFS_DEN out of the NEUSCHWANSTEIN wonder-->
+		<Update>
+			<Where Type="BUILDING_NEUSCHWANSTEIN"/>
+			<Set Description="TXT_KEY_BUILDING_WOLFS_DEN" Civilopedia="TXT_KEY_CIV5_BUILDINGS_WOLFS_DEN_TEXT" Quote="TXT_KEY_BUILDING_WOLFS_DEN_QUOTE" Help="TXT_KEY_BUILDING_WOLFS_DEN_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_NEUSCHWANSTEIN"/>
+			<Set ObsoleteTech="" Cost="700" PrereqTech="TECH_EDUCATION" SpecialistType="SPECIALIST_ENGINEER" NearbyMountainRequired=""/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_NEUSCHWANSTEIN"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" Happiness="1" UnhappinessModifier="-5" PortraitIndex="13" AllowsRangeStrike="true"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_NEUSCHWANSTEIN"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra="" River="true"/>
+		</Update>
+		<!-- END Create WOLFS_DEN out of the NEUSCHWANSTEIN wonder-->
+
+		<!-- Create RED_KEEP out of the KREMLIN wonder-->
+		<Update>
+			<Where Type="BUILDING_KREMLIN"/>
+			<Set Description="TXT_KEY_BUILDING_RED_KEEP" Civilopedia="TXT_KEY_CIV5_BUILDINGS_RED_KEEP_TEXT" Quote="TXT_KEY_BUILDING_RED_KEEP_QUOTE" Help="TXT_KEY_BUILDING_RED_KEEP_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_KREMLIN"/>
+			<Set ObsoleteTech="" Cost="700" PrereqTech="TECH_EDUCATION" SpecialistType="SPECIALIST_ALCHEMIST" SpecialistCount="2" GreatPeopleRateChange="3"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_KREMLIN"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" Happiness="3" UnhappinessModifier="-3" PortraitIndex="14"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_KREMLIN"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra="" Hill="true" GlobalDefenseMod="15" AllowsRangeStrike="true"/>
+		</Update>
+		<!-- END Create RED_KEEP out of the KREMLIN wonder-->
+
+		<!-- Create TITAN out of the COLOSSUS wonder-->
+		<Update>
+			<Where Type="BUILDING_COLOSSUS"/>
+			<Set Description="TXT_KEY_BUILDING_TITAN" Civilopedia="TXT_KEY_CIV5_BUILDINGS_TITAN_TEXT" Quote="TXT_KEY_BUILDING_TITAN_QUOTE" Help="TXT_KEY_BUILDING_TITAN_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_COLOSSUS"/>
+			<Set ObsoleteTech="" Cost="300" PrereqTech="TECH_METAL_CASTING" SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_COLOSSUS"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="15" AllowsRangeStrike="true"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_COLOSSUS"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra="" TradeRouteModifier="10" Defense="300" FreePromotion="PROMOTION_STEAM_POWERED"/>
+		</Update>
+		<!-- END Create TITAN out of the COLOSSUS wonder-->
+
+		<!-- Create WALLS_QARTH out of the GREAT_LIBRARY wonder-->
+		<Update>
+			<Where Type="BUILDING_GREAT_LIBRARY"/>
+			<Set Description="TXT_KEY_BUILDING_WALLS_QARTH" Civilopedia="TXT_KEY_CIV5_BUILDINGS_WALLS_QARTH_TEXT" Quote="TXT_KEY_BUILDING_WALLS_QARTH_QUOTE" Help="TXT_KEY_BUILDING_WALLS_QARTH_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_LIBRARY"/>
+			<Set ObsoleteTech="" Cost="800" PrereqTech="TECH_ALCHEMY" SpecialistType="SPECIALIST_ALCHEMIST" SpecialistCount="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_LIBRARY"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="16" FreeBuildingThisCity="" FreeTechs="" AllowsRangeStrike="true"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_LIBRARY"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra="" Defense="700" ArtDefineTag="ART_DEF_BUILDING_WALLS_OF_BABYLON" FreeGreatPeople="1"/>
+		</Update>
+		<!-- END Create WALLS_QARTH out of the GREAT_LIBRARY wonder-->
+
+		<!-- Create GREAT PYRAMID OF GHIS out of the CHICHEN ITZA wonder-->
+		<Update>
+			<Where Type="BUILDING_CHICHEN_ITZA"/>
+			<Set Description="TXT_KEY_BUILDING_PYRAMID_GHIS" Civilopedia="TXT_KEY_CIV5_BUILDINGS_PYRAMID_GHIS_TEXT" Quote="TXT_KEY_BUILDING_PYRAMID_GHIS_QUOTE" Strategy="TXT_KEY_BUILDING_PYRAMID_GHIS_STRATEGY" Help="TXT_KEY_BUILDING_PYRAMID_GHIS_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_CHICHEN_ITZA"/>
+			<Set Happiness="" GreatPeopleRateChange="3" GoldenAgeModifier=""/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_CHICHEN_ITZA"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="17" PrereqTech="TECH_MASONRY" />
+		</Update>
+		<Update>
+			<Where Type="BUILDING_CHICHEN_ITZA"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra=""/>
+		</Update>
+		<!-- END Create GREAT PYRAMID OF GHIS out of the CHICHEN ITZA wonder-->
+
+		<!-- Create HOUSE_UNDYING out of the LEANING_TOWER wonder-->
+		<Update>
+			<Where Type="BUILDING_LEANING_TOWER"/>
+			<Set Description="TXT_KEY_BUILDING_HOUSE_UNDYING" Civilopedia="TXT_KEY_CIV5_BUILDINGS_HOUSE_UNDYING_TEXT" Quote="TXT_KEY_BUILDING_HOUSE_UNDYING_QUOTE" Help="TXT_KEY_BUILDING_HOUSE_UNDYING_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_LEANING_TOWER"/>
+			<Set SpecialistType="SPECIALIST_MYSTIC" SpecialistCount="2" GreatPeopleRateChange="1" GlobalGreatPeopleRateModifier="" FreeGreatPeople=""/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_LEANING_TOWER"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="18" PrereqTech="TECH_ACOUSTICS" Cost="650"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_LEANING_TOWER"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra="" GlobalEspionageModifier="-33" ExtraMissionarySpreads="2"/>
+		</Update>
+		<!-- END Create HOUSE OF THE UNDYING out of the LEANING_TOWER wonder-->
+
+		<!-- Create HARRENHAL out of the NOTRE_DAME wonder-->
+		<Update>
+			<Where Type="BUILDING_NOTRE_DAME"/>
+			<Set Description="TXT_KEY_BUILDING_HARRENHAL" Civilopedia="TXT_KEY_CIV5_BUILDINGS_HARRENHAL_TEXT" Quote="TXT_KEY_BUILDING_HARRENHAL_QUOTE" Strategy="TXT_KEY_BUILDING_HARRENHAL_STRATEGY" Help="TXT_KEY_BUILDING_HARRENHAL_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_NOTRE_DAME"/>
+			<Set SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="1" GreatPeopleRateChange="1" UnmoddedHappiness="-2"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_NOTRE_DAME"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="19" PrereqTech="TECH_CHIVALRY" Cost="700" Defense="1500" AllowsRangeStrike="true"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_NOTRE_DAME"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra="" UnitUpgradeCostMod="-66" EnhancedYieldTech="TECH_GUNPOWDER"/>
+		</Update>
+		<!-- END Create HARRENHALL out of the NOTRE_DAME wonder-->
+
+		<!-- Create PYRAMID_MEEREEN out of the PYRAMID wonder-->
+		<Update>
+			<Where Type="BUILDING_PYRAMID"/>
+			<Set Description="TXT_KEY_BUILDING_PYRAMID_MEEREEN" Civilopedia="TXT_KEY_CIV5_BUILDINGS_PYRAMID_MEEREEN_TEXT" Quote="TXT_KEY_BUILDING_PYRAMID_MEEREEN_QUOTE" Help="TXT_KEY_BUILDING_PYRAMID_MEEREEN_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PYRAMID"/>
+			<Set SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="1" GreatPeopleRateChange="2"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PYRAMID"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="20" PrereqTech="TECH_THE_WHEEL" Cost="250" GoldenAge="True"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PYRAMID"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra=""/>
+		</Update>
+		<!-- END Create PYRAMID_MEEREEN out of the PYRAMID wonder-->
+
+		<!-- Create HOUSE_BLACKWHITE out of the PETRA wonder-->
+		<Update>
+			<Where Type="BUILDING_PETRA"/>
+			<Set Description="TXT_KEY_BUILDING_HOUSE_BLACKWHITE" Civilopedia="TXT_KEY_CIV5_BUILDINGS_HOUSE_BLACKWHITE_TEXT" Quote="TXT_KEY_BUILDING_HOUSE_BLACKWHITE_QUOTE" Help="TXT_KEY_BUILDING_HOUSE_BLACKWHITE_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PETRA"/>
+			<Set SpecialistType="SPECIALIST_MYSTIC" SpecialistCount="1" GreatPeopleRateChange="2" NearbyTerrainRequired=""/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PETRA"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="21" PrereqTech="TECH_DRAMA" Cost="600" FreeBuildingThisCity=""/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PETRA"/>
+			<Set WonderSplashImage="" WonderSplashAudio="" MaxStartEra="" EnhancedYieldTech="TECH_GUNPOWDER" Water="true"/>
+		</Update>
+		<!-- END Create HOUSE_BLACKWHITE out of the PYRAMID wonder-->
+		
+		<!-- University Becomes ALCHEM_GUILD_HALL -->
+		<Update>
+			<Where Type="BUILDING_UNIVERSITY"/>
+			<Set Description="TXT_KEY_BUILDING_ALCHEM_GUILD_HALL" Civilopedia="TXT_KEY_CIV5_BUILDINGS_ALCHEM_GUILD_HALL_TEXT" Strategy="" Quote="TXT_KEY_BUILDING_ALCHEM_GUILD_HALL_QUOTE" Help="TXT_KEY_BUILDING_ALCHEM_GUILD_HALL_HELP"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_UNIVERSITY"/>
+			<Set SpecialistType="SPECIALIST_MYSTIC" SpecialistCount="1" GreatPeopleRateChange="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_UNIVERSITY"/>
+			<Set IconAtlas="MOD_COLOR_ATLAS_BUILDINGS" PortraitIndex="22" PrereqTech="TECH_ALCHEMY" Cost="250"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_UNIVERSITY"/>
+			<Set MaxStartEra=""/>
+		</Update>		
+		<!--End University Becomes alchemists guild hall-->
+		
+		<Update>
+			<Where Type="BUILDING_WINDMILL"/>
+			<Set PrereqTech="TECH_PHYSICS"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_OPERA_HOUSE"/>
+			<Set PrereqTech="TECH_THEOLOGY"/>
+		</Update>
+		<Row>
+			<Type>BUILDING_BREWHOUSE</Type>
+			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>150</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_BREWHOUSE_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_BREWHOUSE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BREWHOUSE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BREWHOUSE_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_GRANARY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>MOD_COLOR_ATLAS_BUILDINGS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_MASTER_OF_COIN</Type>
+			<BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>120</Cost>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_MASTER_OF_COIN_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_MASTER_OF_COIN</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MASTER_OF_COIN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MASTER_OF_COIN_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_MARKET</ArtDefineTag>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>75</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>MOD_COLOR_ATLAS_BUILDINGS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SEA_TOWER</Type>
+			<BuildingClass>BUILDINGCLASS_LIGHTHOUSE</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>80</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_SEA_TOWER_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_SEA_TOWER</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SEA_TOWER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SEA_TOWER_STRATEGY</Strategy>
+			<ArtDefineTag>LIGHTHOUSE</ArtDefineTag>
+			<Water>true</Water>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<ArtInfoEraVariation>true</ArtInfoEraVariation>
+			<DisplayPosition>8</DisplayPosition>
+			<IconAtlas>MOD_COLOR_ATLAS_BUILDINGS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_RHLLOR</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>130</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_RHLLOR_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_RHLLOR</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_RHLLOR_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_RHLLOR_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<SpecialistType>SPECIALIST_RHLLOR</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<UnhappinessModifier>2</UnhappinessModifier>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>MOD_COLOR_ATLAS_BUILDINGS</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_ANCIENT_ARTIFACT</Type>
+			<BuildingClass>BUILDINGCLASS_ANCIENT_ARTIFACT</BuildingClass>
+			<Cost>130</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
+			<Help>TXT_KEY_ANCIENT_ARTIFACT_HELP</Help>
+			<Description>TXT_KEY_ANCIENT_ARTIFACT</Description>
+			<Civilopedia>TXT_KEY_ANCIENT_ARTIFACT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_ANCIENT_ARTIFACT_STRATEGY</Strategy>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<Happiness>1</Happiness>
+			<HurryCostModifier>40</HurryCostModifier>
+			<IconAtlas>MOD_COLOR_ATLAS_BUILDINGS</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>23</PortraitIndex>
+			<FreePromotion>PROMOTION_SEE_INVISIBLE_ASSASSIN</FreePromotion>
+		</Row>
+		<Row>
+			<Type>BUILDING_DRAGONGLASS_MINE</Type>
+			<BuildingClass>BUILDINGCLASS_DRAGONGLASS_MINE</BuildingClass>
+			<Cost>300</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_DRAGON_GLASS</PrereqTech>
+			<Help>TXT_KEY_DRAGONGLASS_MINE_HELP</Help>
+			<Description>TXT_KEY_DRAGONGLASS_MINE</Description>
+			<Civilopedia>TXT_KEY_DRAGONGLASS_MINE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_DRAGONGLASS_MINE_STRATEGY</Strategy>
+			<ArtDefineTag>BURIAL_TOMB</ArtDefineTag>
+			<NearbyMountainRequired>true</NearbyMountainRequired>
+			<MinAreaSize>-1</MinAreaSize>
+			<Happiness>1</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>MOD_COLOR_ATLAS_BUILDINGS</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>24</PortraitIndex>
+			<TrainedFreePromotion>PROMOTION_DRAGONGLASS_BLADES</TrainedFreePromotion>
+		</Row>
+	</Buildings>
+	
+	<Building_FreeUnits>
+		<Update>
+			<Set UnitType=""/>
+			<Where BuildingType="BUILDING_PORCELAIN_TOWER"/>
+		</Update>
+		<!--IRON THRONE FREE GENERAL-->
+		<Row>
+			<BuildingType>BUILDING_STATUE_ZEUS</BuildingType>
+			<UnitType>UNIT_GREAT_GENERAL</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+		<!--END IRON THRONE FREE GENERAL-->
+
+		<!--TOWER OF JOY FREE GENERAL-->
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<UnitType>UNIT_GREAT_GENERAL</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+		<!--END TOWER OF JOY FREE GENERAL-->
+		
+		<!--REMOVE FREE GREAT PROPHET FROM SEPT OF BAELOR -->
+		<Delete BuildingType="BUILDING_HAGIA_SOPHIA"/>
+		<!--END REMOVE FREE GREAT PROPHET FROM SEPT OF BAELOR -->
+		
+		<!-- Free Great Scientist from the Walls of Qarth -->
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<UnitType>UNIT_SCIENTIST</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+		<!-- END Free Great Scientist from the Walls of Qarth -->
+		
+		<!-- Change Pyramid free workers to Great Pyramid of Meeren free merchant -->
+		<Update>
+			<Set UnitType="UNIT_MERCHANT" NumUnits="1"/>
+			<Where BuildingType="BUILDING_PYRAMID"/>
+		</Update>
+		<!-- END Change Pyramid free workers to Great Pyramid of Meeren free merchant -->
+		
+	</Building_FreeUnits>
+	
+	<Building_DomainProductionModifiers>
+		
+		<!-- SEASTONE CHAIR NAVAL UNIT PRODUCTION MODIFIER-->
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Modifier>20</Modifier>
+		</Row>
+		<!-- END SEASTONE CHAIR SEA PORT PRODUCTION MODIFIER-->
+		
+	</Building_DomainProductionModifiers>
+	<Building_DomainFreeExperiences>
+		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+
+		<!-- SEASTONE CHAIR FREE EXPERIENCE FOR NAVAL UNITS -->
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		<!-- END SEASTONE CHAIR FREE EXPERIENCE FOR NAVAL UNITS -->
+		<Row>
+			<BuildingType>BUILDING_DRAGONGLASS_MINE</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>15</Experience>
+		</Row>
+		
+	</Building_DomainFreeExperiences>
+	
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BREWHOUSE</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREWHOUSE</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREWHOUSE</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MASTER_OF_COIN</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MASTER_OF_COIN</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RHLLOR</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEA_TOWER</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_OASIS</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_OASIS</FeatureType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_CRATER</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_FUJI</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_MESA</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_GIBRALTAR</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_GEYSER</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_FOUNTAIN_YOUTH</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_POTOSI</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_EL_DORADO</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_SRI_PADA</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_MT_SINAI</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_MT_KAILASH</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FeatureType>FEATURE_ULURU</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Update>
+			<Set Yield=""/>
+			<Where BuildingType="BUILDING_PETRA" YieldType="FOOD"/>
+		</Update>
+		<Update>
+			<Set Yield=""/>
+			<Where BuildingType="BUILDING_PETRA" YieldType="PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Yield=""/>
+			<Where BuildingType="BUILDING_PETRA" YieldType="GOLD"/>
+		</Update>
+		<Delete BuildingType="BUILDING_UNIVERSITY"/>
+		<Row>
+			<BuildingType>BUILDING_DRAGONGLASS_MINE</BuildingType>
+			<FeatureType>FEATURE_VOLCANO</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	<Building_SeaPlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SEA_TOWER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BREWHOUSE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Delete BuildingType="BUILDING_COLOSSUS"/>
+		<Row>
+			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_SeaPlotYieldChanges>
+	<Building_TerrainYieldChanges>
+		<Update>
+			<Set Yield=""/>
+			<Where BuildingType="BUILDING_PETRA" YieldType="FOOD"/>
+		</Update>
+		<Update>
+			<Set Yield=""/>
+			<Where BuildingType="BUILDING_PETRA" YieldType="PRODUCTION"/>
+		</Update>
+		<Update>
+			<Set Yield=""/>
+			<Where BuildingType="BUILDING_PETRA" YieldType="GOLD"/>
+		</Update>
+	</Building_TerrainYieldChanges>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_BREWHOUSE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RHLLOR</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RHLLOR</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Update>
+			<Where BuildingType="BUILDING_NOTRE_DAME" YieldType="YIELD_FAITH"/>
+			<Set Yield=""/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_HANGING_GARDEN" YieldType="YIELD_FOOD"/>
+			<Set Yield=""/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_HANGING_GARDEN" YieldType="YIELD_CULTURE"/>
+			<Set Yield="3"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_STONEHENGE"/>
+			<Set YieldType="YIELD_CULTURE" Yield="3"/>
+		</Update>
+		<Update>
+			<Set Yield="1"/>
+			<Where BuildingType="BUILDING_NEUSCHWANSTEIN"/>
+		</Update>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Update>
+			<Set Yield="6"/>
+			<Where BuildingType="BUILDING_GREAT_LIBRARY"/>
+		</Update>
+		<Update>
+			<Set Yield="3" YieldType="YIELD_FAITH"/>
+			<Where BuildingType="BUILDING_PETRA"/>
+		</Update>
+	</Building_YieldChanges>
+	
+	<Building_BuildingClassYieldChanges>
+		<Update>
+			<Set YieldType="YIELD_PRODUCTION"/>
+			<Where BuildingType="BUILDING_NEUSCHWANSTEIN" YieldChange="3" BuildingClassType="BUILDINGCLASS_CASTLE"/>
+		</Update>
+	</Building_BuildingClassYieldChanges>
+	
+	<Building_BuildingClassHappiness>
+		<Delete BuildingType="BUILDING_NEUSCHWANSTEIN"/>
+	</Building_BuildingClassHappiness>
+	
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_MASTER_OF_COIN</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldModifiers>
+
+	<Building_TechEnhancedYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>6</Yield>
+		</Row>
+	</Building_TechEnhancedYieldChanges>
+	
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<ResourceType>RESOURCE_MAESTER_CHAINS</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<ResourceType>RESOURCE_HOLY_BOOKS</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<ResourceType>RESOURCE_FACES</ResourceType>
+			<Quantity>1</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+	
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_SEA_TOWER</BuildingType>
+			<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+			<Modifier>20</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+	
+	<Building_ResourceQuantityRequirements>
+	</Building_ResourceQuantityRequirements>
+	
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_BREWHOUSE</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MASTER_OF_COIN</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEA_TOWER</BuildingType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEA_TOWER</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RHLLOR</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RHLLOR</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+</GameData>

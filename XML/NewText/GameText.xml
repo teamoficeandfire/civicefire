@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/9/2010 1:47:43 PM -->
+<!-- Programming by Martin Mittner-->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROJECT_HAPPY_KINGDOM">
+			<Text>Unified Kingdom</Text>
+		</Row>		
+<!-- STARK CIVILIZATION CITIES-->		
+		<Row Tag="TXT_KEY_CITY_NAME_WINTERFELL">
+			<Text>Winterfell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_HORNWOOD">
+			<Text>Hornwood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WHITE_HARBOR">
+			<Text>White Harbor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LAST_HEARTH">
+			<Text>Last Hearth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KARHOLD">
+			<Text>Karhold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_THE_DREADFORT">
+			<Text>The Dreadfort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MOAT_CAILIN">
+			<Text>Moat Cailin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GREYWATER_WATCH">
+			<Text>Greywater Watch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TORRHENS_SQUARE">
+			<Text>Torrhen&#39;s Square</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DEEPWOOD_MOTTE">
+			<Text>Deepwood Motte</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FLINTS_FINGER">
+			<Text>Flint&#39;s Finger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WIDOWS_WATCH">
+			<Text>Widow&#39;s Watch</Text>
+		</Row>
+<!-- END STARK CIVILIZATION CITIES-->
+<!-- LANNISTER CIVILIZATION CITIES-->
+		<Row Tag="TXT_KEY_CITY_NAME_KINGS_LANDING">
+			<Text>King&#39;s Landing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_LANNISPORT">
+			<Text>Lannisport</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SILVERHILL">
+			<Text>Silverhill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FEASTFIRES">
+			<Text>Feastfires</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_KAYEE">
+			<Text>Kayee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_FAIRCASTLE">
+			<Text>Faircastle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_THE_CRAG">
+			<Text>The Crag</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ASHEMARK">
+			<Text>Ashemark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GOLDEN_TOOTH">
+			<Text>Golden Tooth</Text>
+		</Row>
+<!-- END LANNISTER CIVILIZATION CITIES-->
+<!-- GREYJOY CIVILIZATION CITIES-->
+		<Row Tag="TXT_KEY_CITY_NAME_PYKE">
+			<Text>Pyke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ORKMONT">
+			<Text>Orkmont</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TEN_TOWERS">
+			<Text>Ten Towers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GREY_GARDEN">
+			<Text>Grey Garden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HARRIDAN_HALL">
+			<Text>Harridan Hall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SALT_CLIFF">
+			<Text>Salt Cliff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GREAT_WYK">
+			<Text>Great Wyk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OLD_WYK">
+			<Text>Old Wyk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_IRON_HOLT">
+			<Text>Iron Holt</Text>
+		</Row>
+<!-- END GREYJOY CIVILIZATION CITIES-->
+<!-- BARATHEON CIVILIZATION CITIES-->
+		<Row Tag="TXT_KEY_CITY_NAME_DRAGON_STONE">
+			<Text>Dragonstone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_STORMS_END">
+			<Text>Storm&#39;s End</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SHARP_POINT">
+			<Text>Sharp Point</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_ROSBY">
+			<Text>Rosby</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DRUNKENDALE">
+			<Text>Drunkendale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BRONZEGATE">
+			<Text>Bronzegate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EVENFALL_HALL">
+			<Text>Evenfall Hall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GREENSTONE">
+			<Text>Greenstone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MISTWOOD">
+			<Text>Mistwood</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SUMMERHALL">
+			<Text>Summerhall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BLACKHAVEN">
+			<Text>Blackhaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NIGHTSONG">
+			<Text>Nightsong</Text>
+		</Row>
+<!-- END BARATHEON CIVILIZATION CITIES-->
+<!-- WATCH CIVILIZATION CITIES-->
+		<Row Tag="TXT_KEY_CITY_NAME_CASTLE_BLACK">
+			<Text>Castle Black</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SHADOW_TOWER">
+			<Text>The Shadow Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_EASTWATCH">
+			<Text>Eastwatch-by-the-sea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SENTINEL">
+			<Text>Sentinel Stand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GREYGUARD">
+			<Text>Greyguard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_STONEDOOR">
+			<Text>Stonedoor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_HOARFROST">
+			<Text>Hoarfrost Hill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_NIGHTFORT">
+			<Text>The Nightfort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DEEP_LAKE">
+			<Text>Deep Lake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_QUEENSGATE">
+			<Text>Queensgate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_OAKENSHIELD">
+			<Text>Oakenshield</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_WOODSWATCH">
+			<Text>Woodswatch-by-the-Pool</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_SABLE">
+			<Text>Sable Hall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RIMEGATE">
+			<Text>Rimegate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BARROW">
+			<Text>The Long Barrow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TORCHES">
+			<Text>The Torches</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_GREENGUARD">
+			<Text>Greenguard</Text>
+		</Row>
+<!-- END WATCH CIVILIZATION CITIES-->
+<!-- TARGARYEN CITIES-->
+		<Row Tag="TXT_KEY_CITY_NAME_NEW_DRAGONSTONE">
+			<Text>New Dragonstone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AEGON">
+			<Text>Aegon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MAEGOR">
+			<Text>Maegor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JAEHAERYS">
+			<Text>Jaehaerys</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_VISERYS">
+			<Text>Viserys</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DAERON">
+			<Text>Daeron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_BAELOR">
+			<Text>Baelor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_AERYS">
+			<Text>Aerys</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_MAEKAR">
+			<Text>Maekar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_RHAEGAR">
+			<Text>Rhaegar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_DROGO">
+			<Text>Drogo</Text>
+		</Row>
+<!-- END TARGARYEN CITIES-->
+		<Row Tag="TXT_KEY_CIV_STARK_ADJECTIVE">
+			<Text>Stark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_STARK_DESC">
+			<Text>House Stark [NEWLINE]of Winterfell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_STARK_SHORT_DESC">
+			<Text>House Stark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_STARK_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_STARK_TEXT_1">
+			<Text>House Stark is the principal noble house in the north. Many lesser houses are sworn to the Starks of Winterfell. Their sigil is a grey direwolf on a field of white, and their words are &quot;Winter Is Coming.&quot;[NEWLINE][NEWLINE]The Starks are descended from the First Men as well as Brandon the Builder, a legendary figure from the Age of Heroes thousands of years in the past, who built Winterfell and the Wall. The Starks were Kings of Winter in the north from the Age of Heroes beginning with Bran the Builder until Torrhen Stark submitted to Aegon the Conqueror at the end of the War of Conquest. Since that time, the Starks have held the North for the kings of Westeros as Lords of Winterfell and Wardens of the North.[NEWLINE][NEWLINE]Since Robert&#39;s Rebellion, the Starks have become a relatively small Great House. They share a common ancestor with the Karstarks and may have distant relatives elsewhere in the North, possibly in White Harbor and Barrowton.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STARK_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STARK_TEXT_1">
+			<Text>Robb Stark is the eldest son of Eddard Stark and Catelyn Tully and the heir to Winterfell and the North. Upon his father&#39;s imprisonment for treason, he raised his banners and marched south with a host to aid his allies in the Riverlands and to free his father. After his father&#39;s execution, he was named King in the North by his by his bannermen. Called &quot;The Young Wolf&quot; by his followers and foes alike, he shares his father&#39;s devotion to honor and is frequently accompanied by his direwolf, Grey Wind, whom he always takes with him into battle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_STARK_HEADING_2">
+			<Text>Strategy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_STARK_TEXT_2">
+			<Text>While House Stark holds a great deal of territory, the Kings of the North have less of an ability to grow due to the rough conditions and the burden of maintaining such a vast area. As the Starks you will be faced with severe economic challenges early in the game and may find youself open to attack if you are not careful. Beware of the Greyjoys and House Bolton, for they may move against you early.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STARK_LIVED">
+			<Text>283 AL - 299 AL</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STARK_NAME">
+			<Text>Robb Stark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_STARK_SUBTITLE">
+			<Text>The Young Wolf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARK">
+			<Text>Robb Stark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_NORTHMEN">
+			<Text>Double strategic resources from snow and tundra. Retains 25% of the Happiness benefits from a Luxury Resource if your last copy of it is traded away. Begin the game with a Maester.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_NORTHMEN_SHORT">
+			<Text>Northmen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BREWHOUSE">
+			<Text>Brewhouse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BREWHOUSE_STRATEGY">
+			<Text>The Stark breweries provide +2[ICON_FOOD] food from [ICON_RES_WHEAT] Wheat and +1[ICON_FOOD] ocean tiles worked by that city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BREWHOUSE_TEXT">
+			<Text>The brewhouse was essential in the north where the grapes required for wine are hard to grow. Beer will provide many calories and was often safer than water.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NORTHMAN">
+			<Text>Northman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_NORTHMAN">
+			<Text>The hearty men of North Westeros have spent their lives climbing snowy mountains and hunting quick-footed game in the forests. They think nothing of crossing rugged terrain.</Text>
+		</Row>
+<!-- LANNISTER TXT TAGS -->
+		<Row Tag="TXT_KEY_CIV_LANNISTER_ADJECTIVE">
+			<Text>Lannister</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LANNISTER_DESC">
+			<Text>Houses Lannister &amp; Baratheon[NEWLINE]of Kings Landing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_LANNISTER_SHORT_DESC">
+			<Text>House Lannister</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_LANNISTER_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_LANNISTER_TEXT_1">
+			<Text>House Lannister of Casterly Rock is the principal house of the Westerlands. Their House&#39;s seat is Casterly Rock, their sigil is a golden lion on a field of crimson, and their words are &quot;Hear Me Roar!&quot; Their unofficial motto, just as well known, states, &quot;A Lannister always pays his debts.&quot; After the death of Robert Baratheon, Cersei Lannister effectively wed the Lannister name to the Baratheon claim on the throne. King Joffrey Baratheon adopted a sigil that featured both the Baratheon stag and the Lannister lion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_LANNISTER_HEADING_2">
+			<Text>Strategy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_LANNISTER_TEXT_2">
+			<Text>As Cersei Lannister your power depends upon the support of Casterly Rock and House Tyrell. Without them, you will have grave difficulties taking on the other leaders. Your economy is good, and your ability to make money is high; however, you hold very little territory of your own (though all houses should answer to the Iron Throne).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LANNISTER_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LANNISTER_TEXT_1">
+			<Text>Cersei Lannister is Tywin&#39;s eldest child by mere moments and the twin sister of Jaime Lannister. After Robert&#39;s Rebellion she married the new king, Robert Baratheon, and became Queen of the Seven Kingdoms. A willful and ambitious woman, Cersei resents the restrictions put on her for her gender. She is always concerned for the safety of her royal children -- Joffrey, Myrcella, and Tommen -- and will stop at nothing to protect them.[NEWLINE][NEWLINE]Cersei has shared an incestuous relationship with her brother Jaime since they were youths. That her three children were all a product of this incest -- rather than her husband King Robert -- was a well-guarded secret until Jon Arryn and later Eddard Stark uncovered it shortly before the War of the Five Kings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LANNISTER_LIVED">
+			<Text>272 AL - NA</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LANNISTER_NAME">
+			<Text>Cersei Lannister</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LANNISTER_SUBTITLE">
+			<Text>The Lioness of Casterly Rock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LANNISTER">
+			<Text>Cersei Lannister</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TAXMAN">
+			<Text>Tiles that normally would yield 1 [ICON_GOLD] Gold or more yield +1 [ICON_GOLD] Gold. +2 [ICON_GOLD] Gold from trade routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TAXMAN_SHORT">
+			<Text>The Dwarf&#39;s Penny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MASTER_OF_COIN">
+			<Text>The Master of Coin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MASTER_OF_COIN_STRATEGY">
+			<Text>As the Master of Coin, Tyrion Lannister (and Littlefinger before him) did great things to bolster the economic power of the Crown.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MASTER_OF_COIN_TEXT">
+			<Text>Through certain taxations, the Lannisters have found unique ways to fill the royal coffers. Their Markets give them one free Merchant Specialist and +2 [ICON_GOLD] from [ICON_RES_GOLD]Gold and [ICON_RES_SILVER]Silver.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GOLD_CLOAK">
+			<Text>Gold Cloaks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GOLD_CLOAK_STRATEGY">
+			<Text>Improved knights that start with blitz.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GOLD_CLOAK">
+			<Text>The Gold Cloaks are really nothing more than well dressed and glorified sell swords if truth be told.</Text>
+		</Row>
+<!-- GREYJOY TXT TAGS -->
+		<Row Tag="TXT_KEY_CIV_GREYJOY_ADJECTIVE">
+			<Text>Greyjoy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_GREYJOY_DESC">
+			<Text>House Greyjoy of Pyke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_GREYJOY_SHORT_DESC">
+			<Text>House Greyjoy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GREYJOY_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GREYJOY_TEXT_1">
+			<Text>House Greyjoy is the principal noble house on the Iron Islands, with many lesser Ironborn houses are sworn to them. Their seat is at Pyke and their sigil is a golden Kraken on a black field. House Greyjoy&#39;s words are &quot;We Do Not Sow.&quot;</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GREYJOY_HEADING_2">
+			<Text>Strategy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GREYJOY_TEXT_2">
+			<Text>House Greyjoy presents a unique challenge. You are hemmed into the area of the Iron Islands early on and it will be difficult to colonize the mainland; however, you start with the ability to embark units. Your greatest strength is nautical in nature.[NEWLINE][NEWLINE]I&#39;m on a boat!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GREYJOY_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GREYJOY_TEXT_1">
+			<Text>Asha Greyjoy is the daughter of Balon Greyjoy and his wife Alannys. She is fierce, proud, and defies traditional Ironborn gender roles by commanding her own ship, the Black Wind, and leading men into battle.[NEWLINE][NEWLINE]After the death of Balon Greyjoy, Asha returned to the Iron Islands to claim the Seastone Chair -- a throne to which she believes her naive and arrogant brother is not entitled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GREYJOY_LIVED">
+			<Text>278 AL - NA</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GREYJOY_NAME">
+			<Text>Asha Greyjoy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_GREYJOY_SUBTITLE">
+			<Text>Captain of the Black Wind</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GREYJOY">
+			<Text>Asha Greyjoy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_IRONBORN">
+			<Text>+1[ICON_MOVES] Movement for all Naval units, and all units do not suffer a combat penalty for attacking from sea or over a river. All coastal Cities get a free Harbor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_IRONBORN_SHORT">
+			<Text>Ironborn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEA_TOWER">
+			<Text>Sea Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEA_TOWER_STRATEGY">
+			<Text>A Lighthouse that gives +20% [ICON_PRODUCTION] +1[ICON_PRODUCTION] from [ICON_RES_IRON] Iron sources. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SEA_TOWER_TEXT">
+			<Text>The wild men of the Iron Islands have always been adept at building on the sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KRAKEN">
+			<Text>Kraken</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KRAKEN_STRATEGY">
+			<Text>A better Trireme capable of entering ocean.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_KRAKEN">
+			<Text>The Krakens are the primary ships of the Ironborn fleet. They are highly versatile for such an ancient form of vessel, and unlike inferior counterparts the Kraken can enter ocean.</Text>
+		</Row>
+<!-- BARATHEON -->
+		<Row Tag="TXT_KEY_CIV_BARATHEON_ADJECTIVE">
+			<Text>Baratheon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_BARATHEON_DESC">
+			<Text>House Baratheon [NEWLINE]of Dragonstone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_BARATHEON_SHORT_DESC">
+			<Text>House Baratheon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BARATHEON_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BARATHEON_TEXT_1">
+			<Text>The words of House Baratheon are &quot;Ours is the Fury.&quot; House Baratheon of Dragonstone is a cadet branch of House Baratheon. It was formed after the War of the Usurper when the newly-crowned King Robert I, named his younger brother, Stannis, the Prince of Dragonstone. Originally, Stannis used the crowned stag of House Baratheon, but during the War of the Five Kings he changed his banner to a crowned stag enclosed within a red heart surrounded by a blaze of orange fire on a field of sun yellow.[NEWLINE][NEWLINE]Baratheon was the youngest of the original great houses, tracing its descent from Orys Baratheon, one of Aegon I&#39;s fiercest generals, and rumored to be his bastard brother. Through the female line, the Baratheons are descended from the Storm Kings, as Orys slew Argilac the Arrogant, last of the Storm Kings, and married his daughter. Orys adopted the sigil and words of his wife&#39;s ancestral line. The line of the Storm Kings dates back to the Age of Heroes when their kingdom was founded by King Durran &quot;Godsgrief&quot; I, a legendary hero. After the War of the Usurper, the house claimed the Iron Throne in King&#39;s Landing and the Isle of Dragonstone, with the support of House Stark, House Tully, House Arryn, and eventually House Lannister.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARATHEON_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARATHEON_TEXT_1">
+			<Text>Stannis Baratheon is the eldest of Robert Baratheon&#39;s younger brothers. A brooding, humorless man known for a hard and unyielding sense of justice, he is obsessed with slights both real and imagined. He is well known for weathering a terrible seige durring the War of the Usurper through the use of a smuggler who brought them food. Later he punished the smuggler for his crime of smuggling, but knighted him for his help during the seige (this smuggler was later known as the Onion Knight). After the death of Robert, he styled himself king of the Seven Kingdoms as Robert&#39;s heir, though he has difficulty generating support for his claim. He has a cold relationship with his wife, Lady Selyse of House Florent, and they have one daughter, Shireen, a sad little girl bearing a disfigurement from an ailment.[NEWLINE][NEWLINE]After Robert&#39;s death, Stannis&#39;s brother Renly declared himself king. Through his charisma and familiarity with the Baratheon bannermen, he managed to win support from many houses -- despite Stannis having the better claim. Renly also won the support of the House Tyrell through a secret love affair with Loras Tyrell and a marriage to his sister Margaery Tyrell. He spent a great deal of time moving slowly through the south, gaining support and men while waiting for the right moment to strike. Renly hosted tournaments for his men while the Lannisters and Starks wore each other down. This plan went awry, however, when his brother Stannis laid siege to Storm&#39;s End which forced Renly to respond. Catelyn Stark convinced the men to parley, but Renly made light of the situation, refusing to back down from his claim and advising his brother to give up and have a nice peach from the Tyrell&#39;s Highgarden. While preparing for battle with his brother&#39;s forces, Renly was slain by Stannis&#39;s magic shade.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BARATHEON_HEADING_2">
+			<Text>Strategy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BARATHEON_TEXT_2">
+			<Text>As Stannis Baratheon, you start with the unique benefit of having a second occupied city. While this will drag down the morale of your people, they have their faith to guide them. Make sure to capitalize on your ability to explore with smuggler vessels. Embrace R&#39;hllor!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARATHEON_LIVED">
+			<Text>265 AL - NA</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARATHEON_NAME">
+			<Text>Stannis Baratheon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_BARATHEON_SUBTITLE">
+			<Text>Prince of Dragonstone</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BARATHEON">
+			<Text>Stannis Baratheon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_AZOR_AHAI_REBORN">
+			<Text>Strategic resources provide +2 [ICON_PEACE] faith. Start with a Great Prophet.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_AZOR_AHAI_REBORN_SHORT">
+			<Text>Azor Ahai Reborn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RHLLOR">
+			<Text>Temple of R&#39;hllor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RHLLOR_STRATEGY">
+			<Text>R&#39;hllor is a prominent god across the Narrow Sea, but has only a few followers in Westeros. He is also called the Lord of Light, the Heart of Fire, and the God of Flame and Shadow. His symbol is a fiery heart.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_RHLLOR_TEXT">
+			<Text>The Temple of R&#39;hllor provides Stannis&#39;s people with the spiritual guidance they require to continue his great war. The Temple of R&#39;hllor provides +3 [ICON_GOLD] Gold from [ICON_RES_DYE] Dye, a boost to culture and faith, but at a price. Discontent over putting asside The Old Gods causes a slight rise in unhappiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMUGGLER_VESSEL">
+			<Text>Smuggler Vessel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SMUGGLER_VESSEL_STRATEGY">
+			<Text>This vessel&#39;s primary boon is its aptitude for exploration.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SMUGGLER_VESSEL">
+			<Text>Stannis Baratheon&#39;s Onion Knight still has a few of these rogue vessels with which he maintains contact. The Lord of Dragon Stone might not like them, but he knows they have their uses.</Text>
+		</Row>
+<!-- TARGARYEN -->
+		<Row Tag="TXT_KEY_CIV_TARGARYEN_ADJECTIVE">
+			<Text>Targaryen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TARGARYEN_DESC">
+			<Text>House Targaryen [NEWLINE]of The Free Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_TARGARYEN_SHORT_DESC">
+			<Text>House Targaryen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TARGARYEN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TARGARYEN_TEXT_1">
+			<Text>House Targaryen is a noble family of Valyrian descent which escaped the Doom. They lived for centuries on the island of Dragonstone until Aegon Targaryen and his sisters rode their dragons to the conquest of the Seven Kingdoms. House Targaryen ruled as the Kings of Westeros for nearly 300 years, until expelled by Robert&#39;s Rebellion. Their seats were the capital city of King&#39;s Landing and the island castle of Dragonstone.[NEWLINE][NEWLINE]The Targaryens are known as Dragonlords, and seem to be closer to dragons than other men. Aegon I introduced dragons to Westeros when he conquered it, and dragons were kept and ridden by the Targaryens until the last one perished in the reign of Aegon III Dragonbane. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TARGARYEN_HEADING_2">
+			<Text>Strategy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TARGARYEN_TEXT_2">
+			<Text>As Daenerys, you have the unique advantage of having a large portion of the world without any other Noble Houses around to bother you. You also have the Unsullied, which are extremely cheap units -- whether slaves or free. Take control of the local city-states early on and you just might be able to muster a force to invade Westeros.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TARGARYEN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TARGARYEN_TEXT_1">
+			<Text>Daenerys Targaryen, called Dany, and also known as Daenerys Stormborn, is the the daughter of King Aerys II and his wife Rhaella. Because most of her family was slain during Robert&#39;s Rebellion, when her mother died giving birth to her the Targaryen dynasty was reduced to only her older brother Viserys and herself.[NEWLINE][NEWLINE]Viserys and Daenerys considered themselves the rightful rulers of Westeros: Viserys III, King of the Seven Kingdoms, and his heiress-presumptive Daenerys, the Princess of Dragonstone. In the years that followed, she and Viserys wandered among the nine Free Cities looking for aid -- this earned Viserys the mocking title of &quot;the Beggar King&quot;. He was often a cruel, abusive companion, prone to mood swings and fits of violence. His abiding obsession was regaining the crown which he felt was his by bloodright. He instilled in Daenerys a similar belief: that reclaiming Westeros should be the paramount goal of her life. [NEWLINE][NEWLINE]In the Free City of Pentos, the Targaryens were the guests of Illyrio Mopatis, a rich and powerful magister. Illyrio and Viserys arranged to marry the thirteen-year-old Daenerys to Khal Drogo, a great leader among the Dothraki people, who are nomadic horse lords. Viserys hoped to use the thousands of men in Drogo&#39;s khalasar to conquer Westeros. Despite Daenerys&#39;s fear and apprehension, she had no choice but to accept her brother&#39;s will and wed Drogo. During a drunken rage, Viserys broke Dothraki law by drawing a blade in the holy city, inciting Khal Drogo to &quot;crown&quot; him by dumping a pot of molten gold over his head. When Drogo suffered a life-threatening wound in battle, Daenerys commanded Mirri Maz Duur to heal him. But the maegi betrayed her, leaving Drogo a brain dead husk and slaying their son Rhaego in the womb. In Astapor, she purchased an army of elite eunuch slave soldiers called Unsullied by pretending to sell her dragon, Drogon. After taking control of the Unsullied, she reclaimed Drogon, commanding him to turn his fires on the Astapori leaders, and used the Unsullied to conquer the city. She hopes to travel across the ocean and use her army of unsullied to reclaim the Seven Kingdoms of Westeros.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TARGARYEN_LIVED">
+			<Text>284 AL - NA</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TARGARYEN_NAME">
+			<Text>Daenerys Targaryen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TARGARYEN_SUBTITLE">
+			<Text>Daenerys Stormborn / Khaleesi of the Dothraki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TARGARYEN">
+			<Text>Daenerys Targaryen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CONQUEROR">
+			<Text>25% chance of converting Barbarians to your side. Free courthouse in conquered cities, [ICON_HAPPINESS_4] unhappiness from number of cities is reduced by 50%, and stays alive even with no cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CONQUEROR_SHORT">
+			<Text>Conqueror</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SLAVE_UNSULLIED">
+			<Text>Slave Unsullied</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FREE_UNSULLIED">
+			<Text>Free Unsullied</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SLAVE_UNSULLIED_STRATEGY">
+			<Text>Advanced stage and offensive spearmen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FREE_UNSULLIED_STRATEGY">
+			<Text>Advanced stage and offensive spearmen roughly equivalent to pikemen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SLAVE_UNSULLIED">
+			<Text>The Unsullied are eunuchs from the free city of Astapor. They are all former male slaves chosen young for their size, speed, and strength. Beginning at age five, Unsullied children train from dawn until dusk until they have mastered their shortsword, shield, and three spears. Only one in three survives the training, but those that do are highly disciplined and absolutely loyal. Unsullied are given the wine of courage from the time they are cut, which numbs them more and more with each passing year. Unsullied are never given names.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FREE_UNSULLIED">
+			<Text>Daenerys Targaryen purchased every Unsullied in Astapor, and then freed them all. Her first command to them was to kill all the slaveholders in Astapor. She eliminated the custom of taking new names each day, and for the first time the Unsullied adopted permanent names.</Text>
+		</Row>
+<!-- Night's Watch -->
+		<Row Tag="TXT_KEY_CIV_WATCH_ADJECTIVE">
+			<Text>Night&#39;s Watch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_WATCH_DESC">
+			<Text>The Night&#39;s Watch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_WATCH_SHORT_DESC">
+			<Text>The Night&#39;s Watch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_WATCH_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_WATCH_TEXT_1">
+			<Text>The Night&#39;s Watch mans the Wall, a huge fortification built primarily of ice and located in the far north of Westeros. The Wall is 300 miles long (100 leagues), over 700 feet high; it extends from the Frostfangs mountain range in the west to the Bay of Seals in the east. According to Westerosi legend, it was built after the period known as The Long Night by the nearly mythical Brandon the Builder over 8,000 years ago. The Wall was constructed in an attempt to forever shut out the barbarian inhabitants of the far north who had overrun Westeros during that period. These &quot;Wildlings&quot; were turned back by unknown forces. Several mentions in ancient texts suggest that the Wall was much smaller at the time, having been built upon by the Night&#39;s Watch over the centuries to its present size. However, the severely reduced current Night&#39;s Watch is limited to maintenance duty. The greatest antagonist to the Watch has been the Others, a race of mystical creatures not seen for thousands of years.[NEWLINE][NEWLINE]For the vast majority of the Watch&#39;s recent history, they have served as a practical penal colony, filled with petty and violent criminals, political exiles, and vanquished nobility. Although their numbers are dwindling and the title of Brother of the Night&#39;s Watch no longer holds the honor and prestige it once did, the core of the Watch is still composed of capable and dedicated men. These men now serve the Watch and the Realm of Men by helping ensure that the barbaric human settlers of the areas north of the Wall, known as Wildlings, are not allowed to raid south of The Wall, which has been their ancient task all but forgotten by time and more practical modern concerns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_WATCH_HEADING_2">
+			<Text>Strategy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_WATCH_TEXT_2">
+			<Text>Starting in the North, the Night&#39;s watch has a desperate need for resources. Making aliances with Minor Houses will definitely improve your chances of growing swiftly enough to compete effectively in the game of thrones. Make good use of the Ranger&#39;s unique abilities, and keep in mind you will quickly come into contact with the barbarians from beyond the wall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SNOW_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SNOW_TEXT_1">
+			<Text>Jon Snow is the bastard son of Eddard Stark, by either Ashara Dayne or a lowborn woman named Wylla. His mother&#39;s true identity remains hidden primarily to avoid the wrath of Eddard&#39;s wife Catelyn. However, Cersei Lannister is certain that Jon&#39;s mother is Lady Dayne. He was raised by his father alongside his true-born half-siblings Robb, Brandon, Rickon, Arya, and Sansa. Jon joined the Night&#39;s Watch when he reached adulthood and is constantly accompanied by his albino direwolf Ghost. Due to the efforts of Samwell Tarly, Jon was voted in as a compromise candidate between rival factions of the Watch for the post of Lord Commander. Though Stannis Baratheon offered to make him Lord of House Stark if he would recognize Stannis as king, Jon refused and became the 998th Lord Commander of the Night&#39;s Watch.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SNOW_LIVED">
+			<Text>283 AL - NA</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SNOW_NAME">
+			<Text>Jon Snow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SNOW_SUBTITLE">
+			<Text>Lord Commander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SNOW">
+			<Text>Jon Snow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_NEW_GIFT">
+			<Text> 20% chance to convert Land barbarians to their side. City-State [ICON_INFLUENCE] Influence degrades slowly and recovers quickly. [ICON_FOOD] Food and [ICON_CULTURE] Culture from City-States increased by 15%. Begin the game with The Wall world wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_NEW_GIFT_SHORT">
+			<Text>The New Gift</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RANGER">
+			<Text>Ranger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RANGER_STRATEGY">
+			<Text>The only unit in the game capable of both ranged and melee attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_RANGER">
+			<Text>The Rangers are tasked with actively defending the Wall and riding out to face the Watch&#39;s enemies, including the lawless Wildlings as well as the mysterious inhuman Others. They are led by the First Ranger.</Text>
+		</Row>
+		
+<!-- MINOR CIVILIZATIONS -->
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_MARTELL">
+			<Text>House Martell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_MARTELL_ADJ">
+			<Text>House Martell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HOUSE_MARTELL_TEXT">
+			<Text>House Martell of Sunspear is the ruling house of the kingdom of Dorne. Their seat is at Sunspear. Their sigil is a gold spear piercing a red sun, and their words are &quot;Unbent, Unbowed, Unbroken.&quot;</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SUNSPEAR">
+			<Text>Sunspear</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_TYRELL">
+			<Text>House Tyrell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_TYRELL_ADJ">
+			<Text>House Tyrell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HOUSE_TYRELL_TEXT">
+			<Text>House Tyrell of Highgarden is the principal noble house in the Reach. Many lesser houses are sworn to House Tyrell. Their seat is at Highgarden, a castle near the Mander river. Their sigil is a golden rose on a green field, and their words are &quot;Growing Strong.&quot;</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HIGHGARDEN">
+			<Text>Highgarden</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_BOLTON">
+			<Text>House Bolton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_BOLTON_ADJ">
+			<Text>House Bolton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HOUSE_BOLTON_TEXT">
+			<Text>House Bolton of the Dreadfort is an old line descended from the First Men and dating back to the Age of Heroes. Their sigil is a flayed man, red on pink. Their seat is the Dreadfort and they are one of the most powerful lords of the North. The Boltons are best known for their practice of flaying their enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_DREADFORT">
+			<Text>Dreadfort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_FREY">
+			<Text>House Frey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_FREY_ADJ">
+			<Text>House Frey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HOUSE_FREY_TEXT">
+			<Text>House Frey of the Crossing is a noble house of the Riverlands. Their main seat is the Twins, a pair of castles on each back of the Green Fork of the Trident that serves as a vital bridge across the river. The lord of the house is called the Lord of the Crossing. The strategic location of the Twins has allowed the house to become quite wealthy. Under their current lord, Walder Frey, they have grown greatly in both size and power.[NEWLINE][NEWLINE]Their sigil is two blue towers united by a bridge on silver-grey, representing the Twins. Their motto is not mentioned is not in the recorded histories of Westeros thus far. Most Freys tend to share the weasely appearance of their common ancestor, Lord Walder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_THE_TWINS">
+			<Text>The Twins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_TULLY">
+			<Text>House Tully</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_TULLY_ADJ">
+			<Text>House Tully</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HOUSE_TULLY_TEXT">
+			<Text>House Tully of Riverrun is the principal house in the Riverlands and rule the region as Lords of the Trident. The seat of House Tully is Riverrun. They are an old line dating back to the Age of Heroes as Lords of Riverrun but never ruled as kings. Their sigil is a silver trout leaping on a blue and red striped field, and their words are &quot;Family, Duty, Honor.&quot;</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_RIVERRUN">
+			<Text>Riverrun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_LANNISTER">
+			<Text>House Lannister</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_LANNISTER_ADJ">
+			<Text>House Lannister</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_CASTERLY_ROCK">
+			<Text>Casterly Rock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_ARRYN">
+			<Text>House Arryn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_ARRYN_ADJ">
+			<Text>House Arryn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HOUSE_ARRYN_TEXT">
+			<Text>House Arryn of the Eyrie is the principal noble house in the Vale. Their main seat is the Eyrie, but they have many other holdings. Their sigil is a white moon-and-falcon on a sky-blue field, and their words are &quot;As High as Honor.&quot; Their line dates back to the old Andal nation that invaded Westeros. Usually marrying other Andal nobles, House Arryn to this day has the purest line of Andal nobility.[NEWLINE][NEWLINE]Robert Arryn is the only son of Jon Arryn and his wife, Lysa Tully. He is a sickly, whiny child of six, now Lord of the Eyrie and Defender of the Vale. He was named after Robert Baratheon. Robert is afflicted with a disease that causes frequent seizures. His maester bleeds him frequently and often administers a painkiller during his fits that, if used continuously, has an increasing level of toxicity. He is intellectually and physically stunted, and is not even weaned from his mother&#39;s breast. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_THE_EYRIE">
+			<Text>The Eyrie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_PENTOS">
+			<Text>Pentos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_PENTOS_ADJ">
+			<Text>Pentos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_PENTOS_TEXT">
+			<Text>Pentos is one of the Free Cities. It is the city located closest to the Dothraki Sea, which lies to the east, and pays regular tribute to the nomadic Dothraki people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ASTAPOR">
+			<Text>Astapor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ASTAPOR_ADJ">
+			<Text>Astapor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ASTAPOR_TEXT">
+			<Text>Astapor is a city on Slaver&#39;s Bay. It is renown for the special slaves that it produces, called the Unsullied. Their emblem is a harpy; a woman&#39;s torso, wings of a bat instead of arms, legs of an eagle and a scorpion&#39;s tail. In its talons hangs a chain with open manacles at either end.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_VAES_DOTHRAK">
+			<Text>Vaes Dothrak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_VAES_DOTHRAK_ADJ">
+			<Text>Vaes Dothrak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VAES_DOTHRAK_TEXT">
+			<Text>Vaes Dothrak is the only city of the Dothraki people. It is located beyond the vast Dothraki Sea, beneath the Mother of Mountains and near the lake, the Womb of the World. Vaes Dothrak has no walls. It is large enough to hold every khalasar if they all return at once. The city is ruled and inhabited by slaves and the dosh khaleen, the wives of all the khals who have come before. It is forbidden to wear a blade or shed a free man&#39;s blood within the confines of the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_LHAZAR">
+			<Text>Lhazar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_LHAZAR_ADJ">
+			<Text>Lhazar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_LHAZAR_TEXT">
+			<Text>Lhazar is the name of the semi-arid lands south of the Dothraki Sea. A region of pastures and hills, it is inhabited by the Lhazareen, a people of cattle herders, and in the southern parts by Ghiscari. In this small city of Lhazar is where Daenerys saved a Lhazareen priestess named Mirri Maz Duur, who was labeled as a maegi, from rape and possible murder at the hands of Drogo&#39;s men.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_UNDYING">
+			<Text>House of the Undying Ones</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_HOUSE_UNDYING_ADJ">
+			<Text>House of the Undying Ones</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HOUSE_UNDYING_TEXT">
+			<Text>The House of the Undying Ones is the center of power for the warlocks of Qarth. It is also known colloquially as the &quot;Palace of Dust.&quot; Many enter the House but few come back out. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_YUNKAI">
+			<Text>Yunkai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_YUNKAI_ADJ">
+			<Text>Yunkai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_YUNKAI_TEXT">
+			<Text>Yunkai is a city on the coast of Slaver&#39;s Bay. Its main export is slaves. Its main trade is in bed slaves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MEEREEN">
+			<Text>Meereen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MEEREEN_ADJ">
+			<Text>Meereen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MEEREEN_TEXT">
+			<Text>Meereen is a large city that lies on a piece of land that juts out into Slaver&#39;s Bay.[NEWLINE][NEWLINE]It is renown for trading in slaves. The city, like its sister cites, Yunkai and Astapor, is made from bricks. Here they are multi-colored. The walls are high and at every corner there are defensive towers. The city is dominated by Great Pyramid. The north wall of the city runs along the river bank of the Skahazadhan, the river that flows through the city. Its west wall runs along the shore of Slaver&#39;s Bay. The sewers of the city empty out into the Skahazadhan. It is ruled by the &quot;Great Masters&quot;. It has wide brick streets and the fighting pits are red.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TOLOS">
+			<Text>Tolos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TOLOS_ADJ">
+			<Text>Tolos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TOLOS_TEXT">
+			<Text>Tolos is a city on Slaver&#39;s Bay. Little more than that has been set down in the recorded histories of Westeros and Essos.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ELYRIA">
+			<Text>Elyria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ELYRIA_ADJ">
+			<Text>Elyria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ELYRIA_TEXT">
+			<Text>Elyria is a city on Slaver&#39;s Bay. Little more than that has been set down in the recorded histories of Westeros and Essos.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_OROS">
+			<Text>Oros</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_OROS_ADJ">
+			<Text>Oros</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_OROS_TEXT">
+			<Text>Oros is a city built by Valyrian Freehold. Little else is known of Oros.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TYRIA">
+			<Text>Tyria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TYRIA_ADJ">
+			<Text>Tyria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_TYRIA_TEXT">
+			<Text>Tyria is a city built by Valyrian Freehold. Little else is known of Tyria.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_VALYRIA">
+			<Text>Valyria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_VALYRIA_ADJ">
+			<Text>Valyria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_VALYRIA_TEXT">
+			<Text>Valyria is a long-dead city of wonderment, and was once the capital of a great empire called the Valyrian Freehold, but has since fallen to ruin. At its prime, the Valyrian Freehold was an advanced civilization and the dominant military and cultural power of the known world. The city was located on a peninsula of the eastern continent, and is the ancestral home of House Targaryen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MANTARYS">
+			<Text>Mantarys</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MANTARYS_ADJ">
+			<Text>Mantarys</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MANTARYS_TEXT">
+			<Text>Mantarys is a city built by Valyrian Freehold. Little else is known of Mantarys.</Text>
+		</Row>
+<!-- END MINOR CIVILIZATIONS -->
+<!-- LEADER TEXTS-->
+		<Row Tag="TXT_KEY_LEADER_TARGARYEN_FIRSTGREETING%">
+			<Text>Greetings. Know that you are now addressing the Khaleesi of the Dothraki, the true Princess of Dragonstone, and rightful heir to the Iron Throne.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TARGARYEN_DEFEATED%">
+			<Text>Once again my House&#39;s rightful claim has been usurped! But, one day the Dragon Lords will rule Westeros again!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BARATHEON_FIRSTGREETING%">
+			<Text>We are Lord Baratheon Prince of Dragonstone and the true King of Westeros; swear your sword to Us and we shall restore honor to the Seven Kingdoms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_BARATHEON_DEFEATED%">
+			<Text>We go now, but know that by rejecting my rule you only doom yourself.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GREYJOY_FIRSTGREETING%">
+			<Text>I am Asha of the Ironborn. How do you like the heft of my Axe?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_GREYJOY_DEFEATED%">
+			<Text>Damn you! I would lop your head off if it were only a little closer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LANNISTER_FIRSTGREETING%">
+			<Text>Greetings from the Queen of Westeros, We are certain you are duly in awe of Our beauty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LANNISTER_DEFEATED%">
+			<Text>My Son! This is all your fault, I&#39;ll kill you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SNOW_FIRSTGREETING%">
+			<Text>Hello, how can the Night&#39;s Watch be of service to you my Lord?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_SNOW_DEFEATED%">
+			<Text>It was not our place try for power, and we have received our just deserts. Please take up our ancient duty and tend to The Wall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARK_FIRSTGREETING%">
+			<Text>Hail from the King in the North.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_STARK_DEFEATED%">
+			<Text>I am betrayed!</Text>
+		</Row>
+<!-- END LEADER TEXTS-->
+<!-- SPECIALISTS -->
+		<Row Tag="TXT_KEY_SPECIALIST_ALCHEMIST">
+			<Text>Alchemist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ALCHEMIST_SLOTS">
+			<Text>Alchemist Slots:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ALCHEMIST_STRATEGY">
+			<Text>+1[ICON_GOLD] +1[ICON_FOOD] +2[ICON_RESEARCH]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_MYSTIC">
+			<Text>Mystic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_MYSTIC_SLOTS">
+			<Text>Mystic Slots:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_MYSTIC_STRATEGY">
+			<Text>+5[ICON_CULTURE]/turn +2[ICON_GOLD]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_RHLLOR">
+			<Text>Red Priestess</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_RHLLOR_SLOTS">
+			<Text>Red Priestess Slots:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_RHLLOR_STRATEGY">
+			<Text>+3[ICON_CULTURE]/turn +2[ICON_GOLD] +1[ICON_PRODUCTION] +15XP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_STEWARD">
+			<Text>Steward</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_STEWARD_SLOTS">
+			<Text>Steward Slots:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_STEWARD_STRATEGY">
+			<Text>+2[ICON_PRODUCTION] +2[ICON_FOOD]</Text>
+		</Row>
+<!-- END SPECIALISTS -->
+<!-- IMPROVEMENTS -->
+		<Row Tag="TXT_KEY_BUILD_HUNTING_GROUNDS">
+			<Text>Build Hunting Grounds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_HUNTING_GROUNDS">
+			<Text>Hunting Grounds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_HUNTING_GROUNDS_TEXT">
+			<Text>Sometimes game can be found on the open tundra this will improve tundra much like a farm would.</Text>
+		</Row>
+<!-- END IMPROVEMENTS -->
+<!-- WONDERS -->
+		<Row Tag="TXT_KEY_BUILDING_THE_WALL">
+			<Text>The Wall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_THE_WALL_STRATEGY">
+			<Text>Bolsters city defense, +2[ICON_HAPPINESS_1] Happiness, +15 XP for all Land Units, and it slows enemy units in your territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_THE_WALL_TEXT">
+			<Text>The Wall is a massive wall of ice that stretches across the northern border of the Seven Kingdoms, separating it from the wild lands beyond. It extends from the Frostfangs mountain range in the west to the Bay of Seals in the east. It was reputedly created over 8,000 years ago by Brandon the Builder after the Long Night to defend the realms of man from the Wildlings and Others. Approximately 300 leagues in length and 700 feet in height, the Wall is protected by the Night&#39;s Watch and according to some, ancient spells and sorcery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_THE_WALL_QUOTE">
+			<Text>[NEWLINE]On the Wall, a man gets only what he earns.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PYRAMID_GHIS">
+			<Text>The Great Pyramid of Ghis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PYRAMID_GHIS_STRATEGY">
+			<Text>Build this near an Oasis for more food and production out in the desert, if the city is near a natural wonder as well then it will get an extra boost to production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PYRAMID_GHIS_HELP">
+			<Text>+3 [ICON_PRODUCTION] production from all land based Natural Wonders near the city in which it is built, and Oases provide +2 [ICON_FOOD] food and +1 [ICON_PRODUCTION] production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PYRAMID_GHIS_QUOTE">
+			<Text>[NEWLINE]Old Ghis ruled an empire when the Valyrians were still fucking sheep.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PYRAMID_GHIS_TEXT">
+			<Text>Ghis, the ruins of the capital city of the ancient Ghiscari Empire, located in the Ghiscar region on the eastern continent, almost directly east across the Gulf of Grief from Valyria.[NEWLINE]The Ghiscari Empire dominated most of the eastern continent. The city was brought to ruin following a series of wars with young Valyria 5,000 years ago. Five times had Old Ghis contended with Valyria when the world was young, and five times gone down to bleak defeat, for the Freehold had dragons, and the Empire had none.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_THE_CITADEL">
+			<Text>The Citadel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_THE_CITADEL_STRATEGY">
+			<Text>Allows the civilization that builds this wonder to train the Maester Special Unit, without the Citadel you can not train these units. Provides +15% [ICON_GOLD] gold from Trade Routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_THE_CITADEL_QUOTE">
+			<Text>[NEWLINE]The glass candle is meant to represent truth and learning, rare and beautiful and fragile things. It is made in the shape of a candle to remind us that a maester must cast light wherever he serves, and it is sharp to remind us that knowledge can be dangerous. Wise men may grow arrogant in their wisdom, but a maester must always remain humble. The glass candle reminds us of that as well. Even after he has said his vow and donned his chain and gone forth to serve, a maester will think back on the darkness of his vigil and remember how nothing that he did could make the candle burn...for even with knowledge, some things are not possible</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_THE_CITADEL_TEXT">
+			<Text>The residence of the archmaesters and place where Maesters convene, study, and train new members. Each Maester builds a collar durring their training. The collars signify that they do not serve themselves but the realm. The collar consists of links of different types of metal each signifying they have mastered the study of a different subject. These some of these metals may include[NEWLINE] Black iron, Ravenry[NEWLINE] Bronze, Astronomy[NEWLINE] Copper, History[NEWLINE] Yellow Gold, Economics[NEWLINE] Iron, Warcraft[NEWLINE] Pale steel, Smithing[NEWLINE] Silver, Medicine and healing[NEWLINE] Valyrian steel, Magic and the occult</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_IRON_THRONE">
+			<Text>The Iron Throne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IRON_THRONE_STRATEGY">
+			<Text>+1[ICON_HAPPINESS_1] happiness per city. A Great General appears near the captial and all land units receive the Loyalty to the Iron Throne promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IRON_THRONE_QUOTE">
+			<Text>[NEWLINE]But when he closed his eyes, it was Aerys Targaryen he saw, pacing alone in his throne room, picking at his scabbed and bleeding hands. The fool was always cutting himself on the blades and barbs of the Iron Throne.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_IRON_THRONE_TEXT">
+			<Text>The Iron Throne was constructed by Aegon I Targaryen, the first king of the Seven Kingdoms. Aegon the Conqueror had the Throne made from the swords surrendered by his enemies. It is supposed to have taken a thousand blades to make, heated in the breath of Balerion the Black Dread.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SEASTONE_CHAIR">
+			<Text>The Seastone Chair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEASTONE_CHAIR_STRATEGY">
+			<Text>The Seastone Chair can only be constructed in a city near an improved [ICON_RES_STONE] Stone or [ICON_RES_MARBLE] Marble resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEASTONE_CHAIR_QUOTE">
+			<Text>[NEWLINE]No godless man may sit the Seastone Chair...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SEASTONE_CHAIR_TEXT">
+			<Text>The Seastone Chair is the ancient throne of the Iron Islands, used as the throne by Kings of the Iron Islands. It is made of a block of oily black stone carved into the shape of a kraken. The legend says that it was found by the First Men on the shores of Old Wyk when they came to the Iron Islands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEASTONE_CHAIR_HELP">
+			<Text>+20% [ICON_PRODUCTION] and +15% XP when Building Naval Units. New naval units receive the Ironfleet promotion.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TOWER_OF_JOY">
+			<Text>The Tower of Joy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TOWER_OF_JOY_STRATEGY">
+			<Text>The Tower of Joy gives a boost to hapiness. It also increases a city&#39;s [ICON_GREAT_PEOPLE] Great People generation by 10% and a great person will spawn outside their capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TOWER_OF_JOY_QUOTE">
+			<Text>[NEWLINE]&quot;And now it begins,&quot; said Ser Arthur Dayne, the Sword of the Morning. He unsheathed Dawn and held it with both hands. The blade was pale as milkglass, alive with light.[NEWLINE]&quot;No,&quot; Ned said with sadness in his voice. &quot;Now it ends.&quot;</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TOWER_OF_JOY_TEXT">
+			<Text>The Tower of Joy was a round tower in the south of Westeros, close to the Red Mountains of Dorne. It was used as a hideout by Prince Rhaegar Targaryen, where he kept Lyanna Stark. Lyanna stayed there after Rhaegar left to lead his father&#39;s troops against Robert&#39;s rebellion. At the end of the War, Eddard Stark found his sister there, dying, after he and six of his companions (Howland Reed, Lord Willam Dustin, Ethan Glover, Martyn Cassel, Theo Wull, and Ser Mark Ryswell) approached the tower, finding it guarded by three members of the Kingsguard: Ser Arthur Dayne, Ser Oswell Whent, and Lord Commander Gerold Hightower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TOWER_OF_JOY_HELP">
+			<Text>+10% [ICON_GREAT_PEOPLE] Great People generation in this city and a Great General Spawns near your capital.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_WATER_GARDENS">
+			<Text>The Water Gardens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WATER_GARDENS_STRATEGY">
+			<Text>The Water Gardens provide a boost to happiness and culture as well as a a free garden in every city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WATER_GARDENS_QUOTE">
+			<Text>[NEWLINE]Cool breezes, sparkling water, and the laughter of children. The Water Gardens are my favorite place in this world, ser. One of my ancestors had them built to please his Targaryen bride and free her from the dust and heat of Sunspear.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WATER_GARDENS_TEXT">
+			<Text>The Water Garders were raised by Prince Maron Martell as a gift for his new bride, Princess Daenerys Targaryen, to mark the union of Dorne to the rest of the Seven Kingdoms. Pale pink marble paves the gardens and courtyard, terraces overlooking the numerous pools and fountains of the Water Gardens, shaded by blood orange trees.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WATER_GARDENS_HELP">
+			<Text>Provides a free garden in every city.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SEPT_BAELOR">
+			<Text>The Sept of Baelor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEPT_BAELOR_STRATEGY">
+			<Text>The Sept will give a boost to culture and also provide the means to train the Warrior&#39;s Sons special units once Militant Faith has been researched. These units can spread religion and stomp out heresy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEPT_BAELOR_QUOTE">
+			<Text>[NEWLINE]Across the city, thousands had jammed into the Great Sept of Baelor on Visenya’s Hill, and they would be singing, too, their voices swelling out over the city, across the river, and up into the sky. Surely the gods must hear us...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SEPT_BAELOR_TEXT">
+			<Text>The Great Sept of Baelor, also called the Sept of Baelor, is the center of religious worship for the Faith of the Seven and the seat of the High Septon of the Faith. The Great Sept of Baelor is named after the Septon King Baelor the Blessed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEPT_BAELOR_HELP">
+			<Text>Provides you with the resources necissary to train up to 3 Warrior&#39;s Sons special units at a time. Without the Sept of Baelor you can not train these units. Free Temple in the City in which it is built.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MOAT_CAILIN">
+			<Text>Moat Cailin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOAT_CAILIN_STRATEGY">
+			<Text>Provides a boost to culture and what amounts to a second set of walls. It also gives units the Near Capital Bonus promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOAT_CAILIN_QUOTE">
+			<Text>[NEWLINE]The approaches are too narrow. There is no way to deploy. No one has ever taken the Moat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MOAT_CAILIN_TEXT">
+			<Text>Moat Cailin is ancient fortress on the northern edge of the great swamp known as the Neck, in the North. It is one of the North&#39;s most important strongholds, even though much of it now stands in ruins. Its importance stems from the fact that it commands the causeway, which is the safe route for armies to travel through the swamps of the Neck. It is a very effective natural choke point which has protected the North from southern invasion for thousands of years.[NEWLINE]It&#39;s claimed that Moat Cailin was raised roughly 10,000 years ago, by the the First Men. A great stronghold, with twenty towers and great basalt curtain wall as high as that of Winterfell&#39;s. It used to be a key defense of the north, against which the Andal armies threw themselves time after time with no success. Today only great blocks of black basalt lay scattered about, half sunk in the ground, where the wall once stood. The wooden keep rotted away a thousand years past and three remaining towers out of a fabled twenty are green with moss.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOAT_CAILIN_HELP">
+			<Text>Units receive the Near Capital Bonus promotion.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FISH_FOOT">
+			<Text>Fishfoot&#39;s Fountain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FISH_FOOT_STRATEGY">
+			<Text>The fountain of Old Fishfoot provides a large boost to the culture and production of the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FISH_FOOT_QUOTE">
+			<Text>[NEWLINE]A woman was washing her smallclothes in Fishfoot&#39;s fountain and hanging them off his trident to dry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FISH_FOOT_TEXT">
+			<Text>Fishfoot&#39;s Fountain is the centerpiece of Fishfoot Yard. The square is named for some dead lord, but no one ever calls it anything but Fishfoot Yard. A stone merman rises from the fountain&#39;s waters, 20 feet tall from tail to crown. Old Fishfoot is what the locals call him.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FISH_FOOT_HELP">
+			<Text>+33% [ICON_CULTURE] culture in the city in which it is built and provides a free Water Mill.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_WOLFS_DEN">
+			<Text>The Wolf&#39;s Den</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WOLFS_DEN_QUOTE">
+			<Text>[NEWLINE]All the days were much the same inside the Wolf&#39;s Den, and any change was usually for the worse.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WOLFS_DEN_TEXT">
+			<Text>King Jon Stark raised the Wolf&#39;s Den to defend the mouth of the White Knife from raiders from the sea. It was the seat of younger sons, brothers, uncles and cousins to the King in the North. Some passed the castle to their sons and grandsons, and cadet branches of House Stark arose. The Greystarks lasted the longest, holding the Wolf&#39;s Den for five centuries, until they joined the Dreadfort in rebellion against the Starks of Winterfell.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WOLFS_DEN_HELP">
+			<Text>+3 [ICON_PRODUCTION] and +2 [ICON_CULTURE] from every castle. -5% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities.[NEWLINE][NEWLINE]The city must be built next to a river.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_RED_KEEP">
+			<Text>The Red Keep</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RED_KEEP_QUOTE">
+			<Text>[NEWLINE]Beyond the plaza, beyond the sea of hungry eyes and gaping mouths and dirty faces, across the city, Aegon&#39;s High Hill rose in the distance, the towers and battlements of the Red Keep blushing pink in the light of the rising sun.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_RED_KEEP_TEXT">
+			<Text>The Red Keep is a castle, home of the Kings of the Seven Kingdoms. It sits on Aegon&#39;s Hill. Aegon first set foot on Westeros in the area of King&#39;s Landing at the start of his War of Conquest. On the highest of the three hills of the area, named Aegon&#39;s Hill, he built his first fort of earth and wood. After the completion of the Conquest, Aegon ordered the construction of a permanent royal castle on the hill. The construction was completed during the reign of Maegor I, who killed all those who worked on the castle to preserve its secrets</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RED_KEEP_HELP">
+			<Text>Defensive Buildings in all Cities are 15% more effective -3% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities.[NEWLINE][NEWLINE]The city must be built on a hill.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TITAN">
+			<Text>Titan of Braavos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TITAN_QUOTE">
+			<Text>[NEWLINE]If I had wings I could fly back to Winterfell and see for myself. And if it was true, I&#39;d just fly away, fly up past the moon and the shining stars, and see all the things in Old Nan&#39;s stories, dragons and sea monsters and the Titan of Braavos, and maybe I wouldn&#39;t ever fly back unless I wanted to.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_TITAN_TEXT">
+			<Text>The Titan of Braavos is a massive stone and bronze statue that guards the entrance into the lagoon where Braavos is situated. It is the primary line of defense for Braavos and lets out a loud blast whenever a ship approaches the entrance to warn the Arsenal of its coming. The feet of the statue lie on two separate islands, each set upon a mountain. The islands are covered in soldier pines and black spruce. The legs are made of the same black granite that form the islands upon which it stands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TITAN_HELP">
+			<Text>Units receive the Double Movement in Coast promotion. +10% [ICON_GOLD] from trade routes. City must be built on the coast</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_WALLS_QARTH">
+			<Text>The Triple Walls of Qarth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WALLS_QARTH_QUOTE">
+			<Text>[NEWLINE]Qarth is the greatest city that ever was or ever will be. It is the center of the world, the gate between north and south, the bridge between east and west, ancient beyond memory of man and so magnificent that Saathos the Wise put out his eyes after gazing upon Qarth for the first time, because he knew that all he saw thereafter should look squalid and ugly by comparison.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WALLS_QARTH_TEXT">
+			<Text>Qarth is surrounded by three walls of thirty, forty, and fifty feet in height, respectively engraved with portraits of animals, war, and lovemaking.  The outer wall is made of sandstone, the middle wall of grey granite and the inner wall of black marble.  The outer gates are banded with copper, the middle with iron and the innermost gates studded with golden eyes. They are described in the book Wonders Made by Man by Lomas Longstrider, the famous traveller. The book records nine man made wonders. In addition to the Walls of Qarth some others include the Titan of Braavos, the Wall, and the Great Pyramid of Ghis.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WALLS_QARTH_HELP">
+			<Text>A Great Scientist and a Great Person of your choice appear near the City where the Wonder was built</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_HOUSE_UNDYING">
+			<Text>House of the Undying</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOUSE_UNDYING_QUOTE">
+			<Text>[NEWLINE]Blood of my Blood ... this is an evil place, a haunt of ghosts and maegi. See how it drinks the morning sun? Let us go before it drinks us as well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_HOUSE_UNDYING_TEXT">
+			<Text>The House of the Undying or House of the Undying Ones, also known colloquially as the Palace of Dust, is the center of power for the Warlocks of Qarth. Anyone seeking an audience with the Undying Ones must follow the rules. Before entering, a person seeking audience must drink shade of the evening, the drink of the Warlocks which stains their lips, so that they may &quot;hear and see the truths&quot; that will be laid before them. The drink will not turn lips blue with just one dose.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOUSE_UNDYING_HELP">
+			<Text>All Missionaries born in this city can spread religion four times. All cities in the civilization get a 33% reduction in enemy spy effectiveness</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_HARRENHAL">
+			<Text>Harrenhal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HARRENHAL_QUOTE">
+			<Text>[NEWLINE]Harren and all his line had perished in the fires that engulfed his monstrous fortress, and every house that held Harrenhal since had come to misfortune. Strong it might be, but it was a dark place, and cursed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_HARRENHAL_TEXT">
+			<Text>Harrenhal is a great castle constructed before the War of Conquest, located in the Riverlands, on the north shore of the Gods Eye lake. It is the largest castle in the Seven Kingdoms. Since the War of Conquest, however, it has become a dark and ruinous place.[NEWLINE]Harren the Black, King of the Iron Islands and the Riverlands, built Harrenhal as a monument to himself, intending it to be the greatest of all castles in Westeros and for it to dwarf any other. Thousands of captives from the other realms died in the quarries chained to sledges or laboring on the five huge towers. Weirwoods were cut down to provide rafters and beams.[NEWLINE]Upon its completion, King Harren boasted that his new fortress was impregnable, and it was. However, he didn&#39;t account for Aegon the Conqueror and his dragons invading Westeros.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HARRENHAL_HELP">
+			<Text>[ICON_GOLD] Gold cost of upgrading military units reduced by 66%. Provides 6 [ICON_GOLD] and 6 [ICON_RESEARCH] after Valyrian Steel has been researched.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HARRENHAL_STRATEGY">
+			<Text>Harrenhal can significantly boost your military might, but beware the Ghost of Harrenhal can get to people, causing 2 [ICON_HAPPINESS_4] Unhapiness.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PYRAMID_MEEREEN">
+			<Text>Great Pyramid of Meereen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PYRAMID_MEEREEN_QUOTE">
+			<Text>[NEWLINE]The harpy is a craven thing ... She has a woman&#39;s heart and a chicken&#39;s legs. Small wonder her sons hide behind their walls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PYRAMID_MEEREEN_TEXT">
+			<Text>The Great Pyramid of Meereen is 243 meters tall and a huge bronze harpy once stood at its lofty apex. The Great Pyramid had been built as an echo to the Great Pyramid of Ghis whose colossal ruins Lomas Longstrider had once visited. Like its ancient predecessor, the Pyramid has 33 levels. The number 33 was chosen intentionally, since it is considered sacred to the &quot;gods of Ghis&quot;.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PYRAMID_MEEREEN_HELP">
+			<Text>A Great Merchant appears outside the city in which the wonder is built. A [ICON_GOLDEN_AGE] dawns.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_HOUSE_BLACKWHITE">
+			<Text>The House of Black and White</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOUSE_BLACKWHITE_QUOTE">
+			<Text>[NEWLINE]Mummers change their faces with artifice ... and sorcerers use glamors, weaving light and shadow and desire to make illusions that trick the eye. These arts you shall learn, but what we do here goes deeper.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_HOUSE_BLACKWHITE_TEXT">
+			<Text>The House of Black and White is the temple of the Many-Faced God. It sits upon a rocky knoll made of dark grey stone. It has no windows and has a black tile roof. Its wooden doors are twelve feet high and carved. The left door is weirwood, the right ebony. In the center of the doors is a carved moon face ebony on weirwood, weirwood on ebony. Its grey stone steps lead down to the dock. It is home to the worshipers of the Many Faced God. The Many-Faced God, also known as Him of Many Faces, is a deity worshipped by the Faceless Men, a guild of assassins established in the Free City of Braavos. The founder of the Faceless Men came to believe that all the diverse slave population of Valyria prayed for deliverance to the same god of death, just in different incarnations. A phrase associated with the cult of the Many-Faced God is &quot;valar morghulis,&quot; translated from High Valyrian as &quot;all men must die,&quot; a response to this is &quot;valar dohaeris,&quot; or &quot;all men must serve.&quot;</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOUSE_BLACKWHITE_HELP">
+			<Text>Allows you to build one Faceless Man unit at a time. +6 [ICON_CULTURE] culture after Valyrian Steel has been researched.[NEWLINE]Must be built on the coast.</Text>
+		</Row>
+
+		<!-- END WONDERS -->
+		
+		<!--BUILDINGS -->
+		<Row Tag="TXT_KEY_BUILDING_ALCHEM_GUILD_HALL">
+			<Text>Alchemists&#39; Guild Hall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ALCHEM_GUILD_HALL_QUOTE">
+			<Text>Hand, my brothers and I have been laboring day and night from the first, I assure you. It is only, hmm, we have made so much of the substance that we have become, hmmm more practiced as it were, and also certain spells, hmmm, ancient secrets of our order, very delicate, very troublesome, but necessary if the substance is to be, hmmm, all it should be...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ALCHEM_GUILD_HALL_TEXT">
+			<Text>The Alchemists do their work in their Guildhall.  The hall is an imposing labyrinth of cold, black stone. Acolytes of the Guild work in solitary cells.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ALCHEM_GUILD_HALL_HELP">
+			<Text>+2[ICON_RESEARCH] from water tiles worked by this city.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_ANCIENT_ARTIFACT">
+			<Text>Mystical Artifact</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANCIENT_ARTIFACT_PEDIA">
+			<Text>Many artifacts are still in existance. You just need to know where to look.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANCIENT_ARTIFACT_STRATEGY">
+			<Text>You can use this artifact to detect invisible units, like the Faceless Men.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANCIENT_ARTIFACT_HELP">
+			<Text>Free promotion Detect Invisible Assassins.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_DRAGONGLASS_MINE">
+			<Text>Dragonglass Mine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DRAGONGLASS_MINE_PEDIA">
+			<Text>If the others have come then the best way to fight them is with Dragonglass.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DRAGONGLASS_MINE_STRATEGY">
+			<Text>Build the mine to train units with the Dragonglass Blades promotion which gives them +100% effectiveness against Others.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DRAGONGLASS_MINE_HELP">
+			<Text>+15 experience for all units. Newly trained units in this city receive the Dragonglass Blades promotion. +3 [ICON_PRODUCTION] fronm Volcanos. City must be built within 2 tiles of a Mountain.</Text>
+		</Row>
+		<!--END BUILDINGS -->
+		
+<!-- GROUP UNITS -->
+		<Row Tag="TXT_KEY_UNIT_FLAMING_LONGBOWMAN">
+			<Text>Flaming Bowman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_FLAMING_LONGBOWMAN_TEXT">
+			<Text>Smearing Pitch onto their arrows and lighting it allowed these archers to rain fire down on their enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FLAMING_LONGBOWMAN_STRATEGY">
+			<Text>Slightly more powerfull on attach but weaker on defense than a traditional longbowman.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FLAMING_LONGBOWMAN">
+			<Text>+1 Range and more powerfull attack</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_WARRIORS_SONS">
+			<Text>Warrior&#39;s Sons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_WARRIORS_SONS">
+			<Text>The Holy Order of Warrior&#39;s Sons are an order of Knights sworn to the Faith of the Seven. They are part of the Faith Militant which are known as the Swords and Stars. They only answer and obey the High Septon and him alone as they believe the High Septon speaks for the Seven on the world. Only an anointed Knight can join this order.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WARRIORS_SONS_STRATEGY">
+			<Text>Use these to spread religion and stamp out heresy as well as attack with religious zeal. Warrior&#39;s Sons will receive more XP on the attack than on the defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WARRIORS_SONS_HELP">
+			<Text>Purchase with Faith. Can pass into other rival territory without open borders while religious zeal lasts. +1 XP on offense -1 XP on defense.[NEWLINE][NEWLINE]Requires the Sept of Baelor.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_FACELESS_MAN">
+			<Text>Faceless Man</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_FACELESS_MAN">
+			<Text>The Guild of the Faceless Men is a religious society of assassins who worship the Many Faced God, the universal god of death. Followers of Him of Many Faces consider death to be part of the natural order of things and a merciful end to suffering. For a price, the Guild will agree to kill anyone in the world, considering this contract to be a sacrament of their god. The price is always high or dear, but within the means of the person if they are willing to make the sacrifice.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FACELESS_MAN_STRATEGY">
+			<Text>This unit is invisible to all units until Ancient Knowledge is discovered, at which time other civilizations will be able to train units capable of combating Faceless Men. Faceless Men can not be used to capture or lay seige to a city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FACELESS_MAN_HELP">
+			<Text>You cannot bee seen until you are upon them.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_MAESTER">
+			<Text>Maester</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_MAESTER_TEXT">
+			<Text>The maesters are an order of scholars, healers, postmen, and scientists who are trained at a school called the Citadel. As advisers to the Westerosi nobility, the maesters have largely supplanted the Alchemists&#39; Guild. They are sometimes called &quot;the knights of the mind.&quot;</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAESTER_STRATEGY">
+			<Text>Use a Maester to Construct a number of improvements or hurry construction in a city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAESTER_HELP">
+			<Text>Can build useful improvments or hurry construction.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_VALYRIAN_LONGSWORD">
+			<Text>Valyrian Steel Longsword</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_VALYRIAN_LONGSWORD">
+			<Text>Widow's Wail, Oathkeeper, Heartsbane, Longclaw, Lady Forlorn, Red Rain, Nightfall are the blades still in existence in Westeros and will not be inexpensive to obtain. The lost blades include: Blackfyre, Brightroar and Dark Sister</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VALYRIAN_LONGSWORD_STRATEGY">
+			<Text>With their improved magical blades these are far more power units with a high level of combat proficiency. They are capable of sweeping aside many enemies but come at a high cost in resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VALYRIAN_LONGSWORD_HELP">
+			<Text>Double XP from combat.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_VALYRIAN_KNIGHT">
+			<Text>Valyrian Steel Knight</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_VALYRIAN_KNIGHT">
+			<Text>Widow's Wail, Oathkeeper, Heartsbane, Longclaw, Lady Forlorn, Red Rain, Nightfall are the blades still in existence in Westeros and will not be inexpensive to obtain. The lost blades include: Blackfyre, Brightroar and Dark Sister.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VALYRIAN_KNIGHT_STRATEGY">
+			<Text>With their improved magical blades these are far more power units with a high level of combat proficiency. They are capable of sweeping aside many enemies but come at a high cost in resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_VALYRIAN_KNIGHT_HELP">
+			<Text>Double XP from combat.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BATTERING_RAM">
+			<Text>Battering Ram</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_BATTERING_RAM">
+			<Text>Battering rams are extreemly useful seige weapons that have been constructed by countless civilizations throughout history. Durring the seige of Meereen Daenerys Targaryen had her ships dismantled to construct battering rams, and other weapons, to accomplish the seige.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BATTERING_RAM_STRATEGY">
+			<Text>While they are not much use in combat against other units they will do heavy damage to a city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BATTERING_RAM_HELP">
+			<Text>Strong city seige unit with no defensive capabilities.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_LYSENE_PIRATE">
+			<Text>Lysene Pirates</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LYSENE_PIRATE_PEDIA">
+			<Text>These pirates hail from Lys, one of the nine free cities of Essos. Lys is known for the alchemists who work in the city, who are known to make poisons, and their pirates. One famous among them is Salladhor Saan smuggler, trader, banker, and notorious pirate. He styles himself as the Prince of the Narrow Sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LYSENE_PIRATE_STRATEGY">
+			<Text>Harry your enemies&#39; coasts and steel their boo... I mean pirate treasure.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LYSENE_PIRATE_HELP">
+			<Text>A mele naval unit specializing on pillaging cities and coastal resources.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_LONGSHIP">
+			<Text>Longship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LONGSHIP_PEDIA">
+			<Text>Longships were fitted with oars along almost the entire length of the boat. It was risky to cross the narrow sea in a boat with such a shallow draft but it can be done.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LONGSHIP_STRATEGY">
+			<Text>A hundred oars should be enough to row you across the narrow sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LONGSHIP_HELP">
+			<Text>Can enter deep water.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_BALLISTA">
+			<Text>Wildfire Ballista</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BALLISTA_PEDIA">
+			<Text>Wildfire can burn through anything you throw it at.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BALLISTA_STRATEGY">
+			<Text>This is a powerful late seige unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BALLISTA_HELP">
+			<Text>Fling wildfire at enemy cities.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_UNIT_OTHERS">
+			<Text>Wildfire Ballista</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BARBARIAN_OTHERS">
+			<Text>The Others have a few known weaknesses that are recorded in ancient texts. One is obsidian, otherwise called dragonglass or frozen fire. Ancient texts also record a weakness to dragonsteel, which several have taken to be Valyrian steel.</Text>
+		</Row>
+		<!-- END GROUP UNITS -->
+		
+<!--PROMOTIONS-->
+		<Row Tag="TXT_KEY_PROMOTION_IRON_THRONE">
+			<Text>Loyalty to the Iron Throne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IRON_THRONE_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IRONFLEET">
+			<Text>Ironfleet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IRONFLEET_HELP">
+			<Text>+2 [ICON_MOVES] and Bonus vs Cities (20)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_DRAGONGLASS_BLADES">
+			<Text>Dragonglass Blades</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRAGONGLASS_BLADES_HELP">
+			<Text>+100% [ICON_STRENGTH] Combat Strength vs Others.</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_PROMOTION_SEE_INVISIBLE_ASSASSIN">
+			<Text>Invisible Assassin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SEE_INVISIBLE_ASSASSIN_HELP">
+			<Text>Invisible to enemies without the See Invisible Assassin Promotion</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_INVISIBLE_ASSASSIN">
+			<Text>See Invisible Assassin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INVISIBLE_ASSASSIN_HELP">
+			<Text>Allows unit to see Faceless Men</Text>
+		</Row>
+<!--END PROMOTIONS-->
+<!-- TECHNOLOGIES-->		
+		<Row Tag="TXT_KEY_TECH_DRAGON_EGGS">
+			<Text>Dragon Eggs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DRAGON_EGGS_PEDIA">
+			<Text>Dragons are magical creatures, existing on the continents of Westeros and Essos for much of recorded history. Up until recently they were considered to have gone extinct over one hundred and fifty years ago. The only remaining trace of the dragons believed to be the stones which were reported to have once been dragon eggs and some giant skulls most of which are hidden beneath the Red Keep. Dragons are native to the continent of Essos, and were discovered some five thousand years ago by the Valyrians in the Fourteen Fires, a ring of volcanoes on the Valyrian Peninsula. The Valyrians mastered the art of raising dragons and used them as weapons of war to carve out a massive empire. After the Doom of Valyria, the only dragons known to have survived were the three dragons belonging to the Targaryens, on Dragonstone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DRAGON_EGGS_HELP">
+			<Text>This tech allows those with eggs, and those who can find these rare eggs to raise dragons. This also allows you to train dragon hunter units.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_DRAGON_GLASS">
+			<Text>Dragonglass</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DRAGON_GLASS_PEDIA">
+			<Text>Dragonglass is volcanic glass, or obsidian. Children of the forest make weapons out of dragonglass, including daggers and arrowheads. Dragonglass is volcanic glass, or obsidian. Children of the forest make weapons out of dragonglass, including daggers and arrowheads. Dragonglass weapons are one of the few weaknesses of the Others. An Other that is pierced by an obsidian blade dies almost instantaneously. During the Age of Heroes it was also recorded by the Night&#39;s Watch that the children of the forest gave the black brothers a hundred obsidian daggers every year.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DRAGON_GLASS_HELP">
+			<Text>Researching Dragonglass will help you upgrade your city defenses and give your units the Dragonglass Blades promotion. They will need it when the others come for them.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_WILDFIRE">
+			<Text>Wildfire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WILDFIRE_PEDIA">
+			<Text>Wildfire is a volatile liquid that can burn for a long time. Once wildfire takes fire, the substance will burn until it is no more. It will seep into cloth, wood, leather, and even steel so that they take fire as well. Wildfire will burn even when floating on water, it is typically commissioned for use as a weapon of war, though Alchemists will sometimes use wildfire torches as a display of power. The red priest, Thoros of Myr, fights with a sword covered in a thin layer of wildfire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WILDFIRE_HELP">
+			<Text>Upgrades your city defenses and allows you to create wildfire flinging seige units.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_VALYRIAN_STEEL">
+			<Text>Valyrian Steel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VALYRIAN_STEEL_PEDIA">
+			<Text>Valyrian steel is a magical alloy invented in Valyria and used to make weapons of unparalleled quality. Valyrian steel blades are lighter, stronger, and sharper than even the best castle-forged steel, and feature distinctive rippled patterns similar to Damascus steel. Most Valyrian steel blades in Westeros are treasured heirlooms of noble houses, each with its own name and storied history. It is likely that most of the Valyrian steel swords were brought to westros by the Targaryens, after the Doom of Valyria. Only the greatest weaponsmiths can reforge swords from existing Valyrian steel, but the secret of creating such an alloy was apparently lost with Valyria, making those remaining weapons highly treasured and extremely rare. The blacksmiths of Qohor claim to know how to reforge Valyrian steel, and Tobho Mott did reforge Ice at the request of the Lannisters, in King&#39;s Landing. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VALYRIAN_STEEL_HELP">
+			<Text>Allows you to train stronger more proficient units.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MAESTER_TRAINING">
+			<Text>Maester Training</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAESTER_TRAINING_PEDIA">
+			<Text>Maesters begin their training as novices in the Citadel. Once they begin their study and have been seen as proficient in a particular course of study they are tested and awarded a link of a certain metal to reflect their skill and knowledge. A student with a link is known as an acolyte until he has a full chain. It is not until an acolyte has completed extensive study in various subjects and has earned enough links to form a chain, to be worn around the neck, that he is considered worthy of advancement to the title of Maester.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAESTER_TRAINING_HELP">
+			<Text>The Maesters are a great boon to knowledge througout the realm. Having this tech will also allow you to train Maesters if you can build the Citadel first.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_ALCHEMY">
+			<Text>Alchemy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ALCHEMY_PEDIA">
+			<Text>The Alchemists&#39; Guild is an ancient society of learned men, sometimes called Pyromancers, who have claimed many magical and arcane abilities through the years. In its earlier years, the Guild was very powerful, but by the reign of Robert I, the Guild&#39;s abilities and influence are greatly diminished. The Maesters have largely supplanted them. At the height of their power, Alchemists claimed the ability to transmute metals and create living creatures of flame. In their later years, they still hint at great powers...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ALCHEMY_HELP">
+			<Text>Alchemy is a doorway to great knowledge, and knowledge is power.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_ROYAL_RIGHT">
+			<Text>Royal Right</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ROYAL_RIGHT_PEDIA">
+			<Text>When Aegon the Conqueror set out to unit the land of Westeros there were seven independent kingdoms. The Iron Islands were ruled by petty kings, one king per island for much of their history, until Urron Greyiron slaughtered the lot of them. After the death of Robert Baratheon five Kings claimed all or a piece of Westeros. It is a King&#39;s right to raise himself on high, build great castles to defend his people, and bring destruction to his enemies. Woe be to he who crosses a king.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ROYAL_RIGHT_HELP">
+			<Text>Research Royal Right to build yourself a great castle but be aware of what you must give up to raise those walls.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_THE_NARROW_SEA">
+			<Text>The Narrow Sea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_THE_NARROW_SEA_PEDIA">
+			<Text>The Narrow Sea separates Westeros and the lands to the east. In the north of the sea lies the icy island of Ibben and in the south the hot Summer Isles. The lands to the east of the narrow sea are mostly consolidated into a large eastern continent called Essos. It takes a brave sailor to travel to the the strange lands across the narrow sea. But, new riches man await you there.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_NARROW_SEA_HELP">
+			<Text>Allows you to build cheap and quick exploritory vessels that enter ocean.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_PIRACY">
+			<Text>Piracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PIRACY_PEDIA">
+			<Text>Pirates sail throughout the waters of Westeros and Essos. From the Step Stones to the as far north as Ar Noy on the River Rhoyne. The only place that pirates will not sail is into the Sorrows, an area where mists will infect you with greyscale. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PIRACY_HELP">
+			<Text>Allows you to recruit the Lysene Pirates unit.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MILITANT_FAITH">
+			<Text>Faith Militant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITANT_FAITH_PEDIA">
+			<Text>Two military orders, collectively known as the Faith Militant, have existed at times in the history of the Seven. The worshipers of R&#39;hllor are also not without that special religious zeal. And do not even begin to speak of the followers of the Drowned God.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITANT_FAITH_HELP">
+			<Text>Can train strong military units. Farms will provide 1 [ICON_PEACE] faith and Holy Sites will provide 10 [ICON_PEACE] faith.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_TECH_ANCIENT_KNOWLEDGE">
+			<Text>Ancient Knowledge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ANCIENT_KNOWLEDGE_PEDIA">
+			<Text>There are rare texts scattered through the lands of Westeros and Essos that cronicle arts lost, lands forgotten, and many things believed to be legend. However, for those with the wisdom to set aside their preconceptions this ancient knowledge can be a source of great strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ANCIENT_KNOWLEDGE_HELP">
+			<Text>Can build the House of the Undying world wonder, and you can recreate the Mystical Artifact which will allow your troops to detect Faceless Men.[NEWLINE]You should know... the Others will come.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ANCIENT_KNOWLEDGE_QUOTE">
+			<Text>Maester Aemon sent me to find maps for the Lord Commander. I never thought... Jon, the books, have you ever seen their like? There are thousands?</Text>
+		</Row>
+<!-- END TECHNOLOGIES-->
+<!-- RELIGIONS -->
+		<Row Tag="TXT_KEY_RELIGION_RHLLOR">
+			<Text>R&#39;hllor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_RHLLOR_PEDIA">
+			<Text>The Religion, is based on a dualistic, manichean view of the world. There is R&#39;hllor, also known as the Lord of Light, the Heart of Fire, the God of Flame and Shadow, is the god of light, heat, and life. The antithesis being the God whose name should not be spoken, the god of ice and death. R&#39;hllor has many followers in Essos, but has as of yet not gained prominence in Westeros</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_THE_SEVEN">
+			<Text>Faith of the Seven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_THE_SEVEN_PEDIA">
+			<Text>The Faith of the Seven is the dominant religion of the Seven Kingdoms, and is often simply referred to as &quot;the Faith&quot;. The only parts of Westeros where the Faith is not widespread is in the North and the Iron Islands, where the practice of the Old Gods and the Drowned God are still strong.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_THE_OLD_GODS">
+			<Text>Old Gods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_THE_OLD_GODS_PEDIA">
+			<Text>The Old Gods of the children of the forest, are nameless deities of stone and earth and tree, which were named so by the followers of the Seven that replaced them in all but the North of Westeros, where it's still practiced strongly by Northmen, Crannogmen and Free Folk from Beyond the wall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_THE_DROWNED_GOD">
+			<Text>The Drowned God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_THE_DROWNED_GOD_PEDIA">
+			<Text>The Drowned God is a sea deity worshiped solely by the Ironborn in Westeros. The religion of the Drowned God is old, dating back to before the Andal Invasion. The Andal invaders of the Iron Islands converted to the local religion rather than supplant it with the Seven as they did in the south of Westeros. The Drowned God religion supports the ironmen&#39;s naval, pirate culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_MANY_FACED">
+			<Text>The Many-Faced God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_MANY_FACED_PEDIA">
+			<Text>The Many-Faced God, also known as Him of Many Faces, is a deity worshipped by the Faceless Men, a guild of assassins established in the Free City of Braavos. The founder of the Faceless Men came to believe that all the diverse slave population of Valyria prayed for deliverance to the same god of death, just in different incarnations. This belief of a single god with many incarnations or &#39;faces&#39; came to be reflected in the Guild&#39;s House of Black and White, which contains a public shrine with idols of many death gods, including the Stranger of the Faith of the Seven.</Text>
+		</Row>
+<!-- END RELIGIONS -->
+	</Language_en_US>
+</GameData>
